@@ -57,9 +57,9 @@
     .nav-button {
       position: relative;
       font-family: Arial;
-      background-color: rgb(126, 126, 126);
+      background-color: rgb(155, 155, 155);
       color: white;
-      border-color: rgb(126, 126, 126);
+      border-color: rgb(177, 177, 177);
       cursor: pointer;
       height: 50px;
       border-radius: 4px;
@@ -68,7 +68,7 @@
     .nav-button:hover {
       box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
       transition: all 0.4s;
-      background-color: black;
+      background-color: rgb(17, 17, 17);
       border-color: black;
     }
 
@@ -86,8 +86,9 @@
       color: rgb(56, 177, 173);
     }
 
-    #cv-button:hover{
+    #button-cv .nav-button:hover:before {
       color: rgb(56, 177, 173);
+      content: "Download CV";
     }
   </style>
 
@@ -118,16 +119,21 @@
               src="../assets/images/github.png" width="40px" height="40px"></span></button>
       </li>&#160;
       <li id="button-linkedin" class="nav-item">
-        <button class="nav-button" (click)="goToLink('https://nl.linkedin.com/in/daan-snoeken-4bb41660')"><span><img
-              src="../assets/images/linkedin.png" width="40px" height="40px"></span></button>
+        <button class="nav-button" (click)="goToLink('https://nl.linkedin.com/in/daan-snoeken-4bb41660')">
+          <span>
+            <img src="../assets/images/linkedin.png" width="40px" height="40px">
+          </span>
+        </button>
       </li>&#160;
-      <button class="nav-button" id="cv-button" (click)="getCV()">
-        Download CV
-      </button>
+      <li id="button-cv" class="nav-item">
+        <button class="nav-button" id="cv-button" (click)="getCV()">
+          <span><img src="../assets/images/cv.png" width="40px" height="40px"></span>
+        </button>
+      </li>&#160;
     </ul>
 
 
-    
+
 
     <!--<form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -140,7 +146,7 @@
       <h1>Welkom</h1>
       <p class="lead">
         Gebruik de knoppen boven om te navigeren binnen mijn CV!<br><br>
-        Heeft u liever een beknopte pdf, klik dan op de "Download CV" knop. <br>
+        Heeft u liever een beknopte pdf, klik dan op de "CV" knop. <br>
         Dit dient slechts ter toevoeging.
       </p>
     </div>

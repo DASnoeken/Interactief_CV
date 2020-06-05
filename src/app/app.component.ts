@@ -18,19 +18,19 @@ export class AppComponent {
   public setTitle() {
     this.titleService.setTitle(this.title);
   }
-  test(){
+  test() {
     alert("hoi");
   }
   changeWindow($event) {
     this.router.navigateByUrl($event.target.value);
   }
-  getWindow(){
+  getWindow() {
     return this.router.url;
   }
-  goToLink(url:string){
-    this.router.navigate(["/"]).then(result=>{window.location.href = url;})
+  goToLink(url: string) {
+    this.router.navigate(["/"]).then(result => { window.open(url, "_blank") })
   }
-  getCV(){
+  getCV() {
     let link = document.createElement("a");
     link.download = "Daan_Snoeken-YC_NEXT_CV";
     link.href = "../assets/CV/Daan_Snoeken-YC_NEXT_CV.pdf";

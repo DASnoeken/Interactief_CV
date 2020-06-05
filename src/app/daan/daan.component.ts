@@ -3,7 +3,8 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
     selector: 'int-daan',
-    templateUrl: 'daan.component.html'
+    templateUrl: 'daan.component.html',
+    styleUrls: ['../app.component.css']
 })
 export class DaanComponent {
     mouseUp() {

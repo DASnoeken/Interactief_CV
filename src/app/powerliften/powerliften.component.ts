@@ -3,7 +3,8 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
     selector: 'int-powerliften',
-    templateUrl: 'powerliften.component.html'
+    templateUrl: 'powerliften.component.html',
+    styleUrls: ['../app.component.css']
 })
 export class PowerliftenComponent {
     title = 'Daan Snoeken';

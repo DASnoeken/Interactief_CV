@@ -78,10 +78,16 @@
 
     #button-github .nav-button:hover:before {
       content: "GitHub";
+      color: rgb(56, 177, 173);
     }
 
     #button-linkedin .nav-button:hover:before {
       content: "LinkedIn";
+      color: rgb(56, 177, 173);
+    }
+
+    #cv-button:hover{
+      color: rgb(56, 177, 173);
     }
   </style>
 
@@ -115,7 +121,7 @@
         <button class="nav-button" (click)="goToLink('https://nl.linkedin.com/in/daan-snoeken-4bb41660')"><span><img
               src="../assets/images/linkedin.png" width="40px" height="40px"></span></button>
       </li>&#160;
-      <button class="nav-button" (click)="getCV()">
+      <button class="nav-button" id="cv-button" (click)="getCV()">
         Download CV
       </button>
     </ul>

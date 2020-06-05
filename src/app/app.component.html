@@ -10,117 +10,119 @@
   <meta charset="utf-8">
   <meta name="author" content="Daan Snoeken">
 
-</head>
-<style>
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
-  }
 
-  body {
-    padding-top: 5rem;
-  }
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
 
-  .starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-  }
+    body {
+      padding-top: 5rem;
+    }
 
-  .custom-select {
-    position: relative;
-    font-family: Arial;
-    background-color: rgb(126, 126, 126);
-    color: white;
-    border-color: rgb(100, 100, 100);
-    cursor: pointer;
-    height: 50px;
-  }
+    .starter-template {
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
 
-  .custom-select select {
-    display: block;
-  }
+    .custom-select {
+      position: relative;
+      font-family: Arial;
+      background-color: rgb(126, 126, 126);
+      color: white;
+      border-color: rgb(100, 100, 100);
+      cursor: pointer;
+      height: 50px;
+    }
 
-  .custom-select:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  }
+    .custom-select select {
+      display: block;
+    }
 
-  .nav-button {
-    position: relative;
-    font-family: Arial;
-    background-color: rgb(126, 126, 126);
-    color: white;
-    border-color: rgb(126, 126, 126);
-    cursor: pointer;
-    height: 50px;
-    border-radius: 4px;
-  }
+    .custom-select:hover {
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
 
-  .nav-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    transition: all 0.4s;
-    background-color: black;
-    border-color: black;
-  }
+    .nav-button {
+      position: relative;
+      font-family: Arial;
+      background-color: rgb(126, 126, 126);
+      color: white;
+      border-color: rgb(126, 126, 126);
+      cursor: pointer;
+      height: 50px;
+      border-radius: 4px;
+    }
 
-  .nav-button:hover span {
-    display: none;
-  }
+    .nav-button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      transition: all 0.4s;
+      background-color: black;
+      border-color: black;
+    }
 
-  #button-github .nav-button:hover:before {
-    content: "GitHub";
-  }
+    .nav-button:hover span {
+      display: none;
+    }
 
-  #button-linkedin .nav-button:hover:before {
-    content: "LinkedIn";
-  }
-</style>
+    #button-github .nav-button:hover:before {
+      content: "GitHub";
+    }
+
+    #button-linkedin .nav-button:hover:before {
+      content: "LinkedIn";
+    }
+  </style>
+
+</head>
 
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand">Daan Snoeken</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    <!--<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button>-->
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav">
-        <div style="width:200px;">
-          <select class="custom-select" (change)="changeWindow($event)">
-            <option value="">Select...</option>
-            <option value="/daan">Over Daan</option>
-            <option value="/drive">Mijn Drive</option>
-            <option value="/programming">Programmeren</option>
-            <option value="/powerliften">Powerlifting</option>
-            <option value="/science">Real Science</option>
-          </select>
-        </div>
-        &#160;
-        <div id="button-github">
-          <button class="nav-button" (click)="goToLink('http://github.com/DASnoeken')"><span><img
-                src="../assets/images/github.png" width="40px" height="40px"></span></button>
-        </div>&#160;
-        <div id="button-linkedin">
-          <button class="nav-button" (click)="goToLink('https://nl.linkedin.com/in/daan-snoeken-4bb41660')"><span><img
-                src="../assets/images/linkedin.png" width="40px" height="40px"></span></button>
-        </div>&#160;
-      </ul>
-    </div>
-    <div id="button-cv">
+    <ul class="navbar-nav mr-auto">
+      <li style="width:200px;" class="nav-item dropdown">
+        <select class="custom-select" (change)="changeWindow($event)">
+          <option value="">Select...</option>
+          <option value="/daan">Over Daan</option>
+          <option value="/drive">Mijn Drive</option>
+          <option value="/programming">Programmeren</option>
+          <option value="/powerliften">Powerlifting</option>
+          <option value="/science">Real Science</option>
+        </select>
+      </li>
+      &#160;
+      <li id="button-github" class="nav-item">
+        <button class="nav-button" (click)="goToLink('http://github.com/DASnoeken')"><span><img
+              src="../assets/images/github.png" width="40px" height="40px"></span></button>
+      </li>&#160;
+      <li id="button-linkedin" class="nav-item">
+        <button class="nav-button" (click)="goToLink('https://nl.linkedin.com/in/daan-snoeken-4bb41660')"><span><img
+              src="../assets/images/linkedin.png" width="40px" height="40px"></span></button>
+      </li>&#160;
       <button class="nav-button" (click)="getCV()">
         Download CV
       </button>
-    </div>
+    </ul>
+
+
+    
+
     <!--<form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit" (click)="setTitle()">Search</button>
@@ -144,13 +146,11 @@
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
   <script src="../assets/dist/js/bootstrap.bundle.js"></script>
 </body>
+
+<script>
+
+</script>
 
 </html>

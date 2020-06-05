@@ -18,16 +18,22 @@ export class AppComponent {
   public setTitle() {
     this.titleService.setTitle(this.title);
   }
-  test($event) {
-    console.log($event.target.value);
+  test(){
+    alert("hoi");
   }
   changeWindow($event) {
     this.router.navigateByUrl($event.target.value);
   }
+  getWindow(){
+    return this.router.url;
+  }
   goToLink(url:string){
-    //surl="www."+url+".com";
-    
     this.router.navigate(["/"]).then(result=>{window.location.href = url;})
-    //document.location.href=url;
+  }
+  getCV(){
+    let link = document.createElement("a");
+    link.download = "Daan_Snoeken-YC_NEXT_CV";
+    link.href = "../assets/CV/Daan_Snoeken-YC_NEXT_CV.pdf";
+    link.click();
   }
 }

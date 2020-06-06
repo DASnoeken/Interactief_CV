@@ -9,7 +9,7 @@ export class ProgrammingComponent {
     public chartType: string = 'horizontalBar';
 
     public chartDatasets: Array<any> = [
-        { data: [80, 60, 30, 70, 50, 40, 40, 10, 80, 80, 20, 0, 100], label: 'Mijn Skills' }
+        { data: [80, 70, 30, 70, 50, 40, 40, 10, 70, 70, 20, 0, 100], label: 'Mijn Skills' }
     ];
 
     public chartLabels: Array<any> = ['Java', 'C++', 'Python', 'HTML', 'TypeScript', 'CSS', 'SQL', 'Fortran', 'Matlab', 'Scilab', 'Bash'];

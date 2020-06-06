@@ -30,6 +30,9 @@ export class AppComponent {
   goToLink(url: string) {
     this.router.navigate(["/"]).then(result => { window.open(url, "_blank") })
   }
+  sendMail(){
+    window.open("mailto:d.a.snoeken@protonmail.com","_self");
+  }
   getCV() {
     let link = document.createElement("a");
     link.download = "Daan_Snoeken-YC_NEXT_CV";

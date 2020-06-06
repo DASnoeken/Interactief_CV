@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { PowerliftenComponent } from './powerliften/powerliften.component';
 import { DaanComponent } from './daan/daan.component';
 import { ProgrammingComponent } from './programming/programming.component';
+import { ChartsModule, WavesModule } from 'angular-bootstrap-md'
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ProgrammingComponent } from './programming/programming.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ChartsModule,
+    WavesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

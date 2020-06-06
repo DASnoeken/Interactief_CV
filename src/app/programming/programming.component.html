@@ -53,7 +53,19 @@
   <main role="main" class="container">
     <div class="starter-template">
       <h1>Programmeren</h1>
-      <p class="lead">Hier gaan we programmeren!</p>
+      <p class="lead">Programmeren is niet alleen werk, maar ook een geweldige hobby!</p><br>
+      <div style="display: block">
+        <canvas mdbChart
+            [chartType]="chartType"
+            [datasets]="chartDatasets"
+            [labels]="chartLabels"
+            [colors]="chartColors"
+            [options]="chartOptions"
+            [legend]="true"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+        </canvas>
+      </div>
     </div>
   </main>
 
@@ -68,6 +80,7 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
   <script src="../assets/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
 </body>
 
 </html>

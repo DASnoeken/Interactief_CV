@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { PowerliftenComponent } from './powerliften/powerliften.component';
 import { DaanComponent } from './daan/daan.component';
 import { ProgrammingComponent } from './programming/programming.component';
-import { ChartsModule, WavesModule } from 'angular-bootstrap-md'
-
+import { ChartsModule, WavesModule, CollapseModule } from 'angular-bootstrap-md';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -21,7 +21,9 @@ import { ChartsModule, WavesModule } from 'angular-bootstrap-md'
     AppRoutingModule,
     FormsModule,
     ChartsModule,
-    WavesModule
+    WavesModule,
+    CollapseModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

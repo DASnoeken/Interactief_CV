@@ -85,27 +85,28 @@
 
 <body>
   <main role="main" class="container">
-    <div class="starter-template">
+    <div class="starter-template" >
       <h1>Programmeren</h1>
-      <p class="lead">Programmeren is niet alleen werk, maar ook een geweldige hobby!<br>
+      <p class="lead" >Programmeren is niet alleen werk, maar ook een geweldige hobby!<br><br>
+        Ik wil u graag ook uitnodigen om naar mijn github pagina te kijken. <br>Gebruik hiervoor de knop bovenaan.<br><br>
         Klik op de knoppen hieronder om mijn vaardigheden te bekijken!</p><br>
     </div>
 
     <div id="body-button-container">
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
-        (click)="talen.toggle();backend.hide();frontend.hide();overig.hide();" mdbWavesEffect>
+        (click)="backend.hide();frontend.hide();overig.hide();talen.toggle();" mdbWavesEffect>
         Bekijk programmeertalen
       </button>
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
-        (click)="backend.toggle();talen.hide();frontend.hide();overig.hide();" mdbWavesEffect>
+        (click)="talen.hide();frontend.hide();overig.hide();backend.toggle();" mdbWavesEffect>
         Bekijk backend
       </button>
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
-        (click)="frontend.toggle();backend.hide();talen.hide();overig.hide();" mdbWavesEffect>
+        (click)="backend.hide();talen.hide();overig.hide();frontend.toggle();" mdbWavesEffect>
         Bekijk frontend
       </button>
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
-        (click)="overig.toggle();frontend.hide();backend.hide();talen.hide();" mdbWavesEffect>
+        (click)="frontend.hide();backend.hide();talen.hide();overig.toggle();" mdbWavesEffect>
         Bekijk overig
       </button>
     </div><br>

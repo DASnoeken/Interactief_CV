@@ -53,7 +53,6 @@
     color: white;
     border-color: rgb(13, 150, 145);
     border-radius: 4px;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     font-size: large;
     transition: 0.3s;
@@ -62,6 +61,7 @@
   .body-button:hover {
     background-color: white;
     color: rgb(13, 150, 145);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
 
   .td-legend-1 {
@@ -96,19 +96,19 @@
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
         (click)="backend.hide();frontend.hide();overig.hide();talen.toggle();" mdbWavesEffect>
         Bekijk programmeertalen
-      </button>
+      </button>&#160;
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
         (click)="talen.hide();frontend.hide();overig.hide();backend.toggle();" mdbWavesEffect>
         Bekijk backend
-      </button>
+      </button>&#160;
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
         (click)="backend.hide();talen.hide();overig.hide();frontend.toggle();" mdbWavesEffect>
         Bekijk frontend
-      </button>
+      </button>&#160;
       <button mdbBtn color="primary" class="waves-light body-button" type="button"
         (click)="frontend.hide();backend.hide();talen.hide();overig.toggle();" mdbWavesEffect>
         Bekijk overig
-      </button>
+      </button>&#160;
     </div><br>
     <div class="" mdbCollapse #talen="bs-collapse">
       <div style="display: block">

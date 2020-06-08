@@ -55,11 +55,17 @@
         text-align: justify;
         margin-top: 0px;
     }
-    #naam{
+
+    #naam {
         margin-top: auto;
         position: relative;
         z-index: 1;
-        width:66%;
+        width: 50%;
+    }
+
+    .lead {
+        position: relative;
+        z-index: 1;
     }
 
     #pasfoto {
@@ -70,6 +76,13 @@
         cursor: pointer;
     }
 
+    #badge {
+        position: relative;
+    }
+
+    #badge:hover {
+        cursor: pointer;
+    }
 </style>
 
 <body>
@@ -78,13 +91,15 @@
         <div class="container">
             <div class="row">
                 <div class="column">
-                    <img id="pasfoto" (mouseup)="mouseUp()" (mousedown)="mouseDown()" src="../../assets/images/Daan.png"
-                        width="200px" height="200px">
+                    <img id="pasfoto" (mouseup)="mouseUp('pasfoto')" (mousedown)="mouseDown('pasfoto')"
+                        src="../../assets/images/Daan.png" width="200px" height="200px">
                 </div>
                 <div class="column" id="naam">
                     <h1>Daan Snoeken</h1>
                 </div>
-                <div class="column"></div>
+                <div class="column">
+
+                </div>
             </div>
             <div class="row">
                 <div class="column">
@@ -126,6 +141,8 @@
                         financiën. Ik kan dan ook vrijwel overal mijn weg vinden.<br>
 
                     </p>
+                    <img id="badge" src="../../assets/images/OCA_badge.png" (mouseup)="mouseUp('badge')"
+                        (mousedown)="mouseDown('badge')" width="150px" height="150px">
                 </div>
                 <div class="column">
                     <p class="lead">
@@ -134,13 +151,17 @@
                         "Programmeren" wil ik hier dieper op in gaan.<br><br>
                         Verder heb ik tijdens de traineeship mijn Scrum.org PSM1 certificaat gehaald met een score van
                         88%.
-                        Vervolgens heb ik ook het Java OCA examen gehaald met een score van 78%.<br><br>
+                        Vervolgens heb ik ook het <a
+                            href="https://www.youracclaim.com/badges/010181bf-57e8-4252-a046-ede5262ddd8c"
+                            target="_blank">Java OCA</a>
+                        examen gehaald met een score van 78%.<br><br>
                         Ter afsluiting van deze fase van het traineeship heb ik, samen met een team, een full-stack
                         applicatie gebouwd.
                         Hier hebben we een applicatie voor de sport genaamd powerliften gemaakt, waar je als sporter je
                         voortgang kan
                         bijhouden en planningen kan maken.
                     </p>
+
                 </div>
             </div>
 

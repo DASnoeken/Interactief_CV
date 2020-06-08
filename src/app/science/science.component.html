@@ -119,21 +119,30 @@
         <div class="column">
           <p class="lead">Op de Radboud universiteit in Nijmegen heb ik in 2018-2019 onderzoek gedaan naar de interactie
             tussen stikstofmonoxide (NO) en ammonia (NH<sub>3</sub>). Hier heb ik een <i>ab-initio</i> potentiale
-            energie oppervlak gemaakt, wat later gebruikt is voor botsingsberekeningen.<br>
+            energie oppervlak (het potentiaal) gemaakt, wat later gebruikt is voor botsingsberekeningen.<br>
             Het <i>ab-initio</i> potentiaal is een 5-dimensionale wiskundige functie, waar we 32076 <i>ab-initio</i>
             punten berekend hadden. Dit was een grote hoeveelheid data om te managen en hier heb ik dan ook mijn
             programmeervaardigheden goed kunnen ontwikkelen. De output van een <i>ab-initio</i> programma is natuurlijk
             nooit triviaal en soms gaat er ergens iets fout. Dus hier heb ik op gereageerd door mijn eigen programma's
             te schrijven in C++ die deze taak op zich konden nemen. Ten slotte heb ik een wiskundige fit gedaan met
-            Matlab, Scilab en Fortran.<br>Druk op onderstaande knop om een doorsnede van het potentiaal te bekijken.</p>
-          <button mdbBtn color="primary" class="waves-light body-button" type="button" (click)="plot.toggle();"
-            mdbWavesEffect>
-            Bekijk plot
+            Matlab, Scilab en Fortran.<br>Druk op onderstaande knop om een doorsnede van het potentiaal te bekijken of
+            op de andere knop voor een tekening van het systeem. De resultaten van dit onderzoek zijn nog niet
+            gepubliceerd.</p>
+          <button mdbBtn color="primary" class="waves-light body-button" type="button"
+            (click)="tekening.hide();plot.toggle();" mdbWavesEffect>
+            Bekijk doorsnede
+          </button>&#160;
+          <button mdbBtn color="primary" class="waves-light body-button" type="button"
+            (click)="plot.hide();tekening.toggle();" mdbWavesEffect>
+            Bekijk tekening
           </button>
         </div>
       </div>
       <div class="" mdbCollapse #plot="bs-collapse">
         <img src="../../assets/images/plot.png" style="width:728px;height:583px;">
+      </div>
+      <div class="" mdbCollapse #tekening="bs-collapse">
+        <img src="../../assets/images/nonh3_systeem.PNG" style="width:728px;height:583px;">
       </div>
       <!--<div style="display: block">
         <canvas mdbChart [chartType]="plotType" [datasets]="plotDatasets" [labels]="plotLabels" [colors]="plotColors"

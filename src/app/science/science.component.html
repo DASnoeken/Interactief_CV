@@ -39,13 +39,51 @@
   .custom-select {
     position: relative;
     font-family: Arial;
-    background-color: rgb(100,100,100);
+    background-color: rgb(100, 100, 100);
     color: white;
-    border-color: rgb(100,100,100);
+    border-color: rgb(100, 100, 100);
   }
 
   .custom-select select {
     display: block;
+  }
+
+  #Publicatie-formazan {
+    font-size: small;
+    width: 70%;
+    border: 2px solid red;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin: auto;
+  }
+
+  .column {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 0px;
+  }
+
+  .titles {
+    text-align: center;
+  }
+
+  .body-button {
+    background-color: rgb(13, 150, 145);
+    color: white;
+    border-color: rgb(13, 150, 145);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: large;
+    transition: 0.3s;
+  }
+
+  .body-button:hover {
+    background-color: white;
+    color: rgb(13, 150, 145);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
 </style>
 
@@ -53,7 +91,55 @@
   <main role="main" class="container">
     <div class="starter-template">
       <h1>Achtergrond</h1>
-      <p class="lead">Hier gaan we wetenschap dingen doen!</p>
+      <p class="lead">Ik heb scheikunde gestudeerd, hier staat een beschrijving van mijn afstudeerprojecten.<br>
+      </p>
+      <div class="row">
+        <div class="column">
+          <h2 class="titles">HBO project</h2>
+        </div>
+        <div class="column">
+          <h2 class="titles">Universiteit project</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <p class="lead">Tijdens mijn HBO afstudeerproject in 2015 heb ik onderzoek gedaan naar de synthese en
+            karakterisering van
+            redox-actieve liganden. Redox-actieve liganden kunnen gebruikt worden voor de vervanging van
+            overgangsmetalen
+            in katalyse, doordat elektronen kunnen worden opgeslagen in het ligand in plaats van metaal. Dit heeft
+            voordelen voor het milieu en de kosten.<br> Specifieke details zijn gepubliceerd en staan in de referentie
+            hieronder.</p>
+          <div id="Publicatie-formazan">Ranajit Mondol, <u>Daan A. Snoeken</u>, Mu-Chieh Chang and Edwin Otten,
+            <i>Stable, crystalline boron complexes with
+              mono-, di- and trianionic formazanate ligands.</i> Chemical communications (Cambridge, England), 53,
+            513-516 (<b>2016</b>). <a href="https://doi.org/10.1039/c6cc08166e">https://doi.org/10.1039/c6cc08166e</a>
+          </div>
+        </div>
+        <div class="column">
+          <p class="lead">Op de Radboud universiteit in Nijmegen heb ik in 2018-2019 onderzoek gedaan naar de interactie
+            tussen stikstofmonoxide (NO) en ammonia (NH<sub>3</sub>). Hier heb ik een <i>ab-initio</i> potentiale
+            energie oppervlak gemaakt, wat later gebruikt is voor botsingsberekeningen.<br>
+            Het <i>ab-initio</i> potentiaal is een 5-dimensionale wiskundige functie, waar we 32076 <i>ab-initio</i>
+            punten berekend hadden. Dit was een grote hoeveelheid data om te managen en hier heb ik dan ook mijn
+            programmeervaardigheden goed kunnen ontwikkelen. De output van een <i>ab-initio</i> programma is natuurlijk
+            nooit triviaal en soms gaat er ergens iets fout. Dus hier heb ik op gereageerd door mijn eigen programma's
+            te schrijven in C++ die deze taak op zich konden nemen. Ten slotte heb ik een wiskundige fit gedaan met
+            Matlab, Scilab en Fortran.<br>Druk op onderstaande knop om een doorsnede van het potentiaal te bekijken.</p>
+          <button mdbBtn color="primary" class="waves-light body-button" type="button" (click)="plot.toggle();"
+            mdbWavesEffect>
+            Bekijk plot
+          </button>
+        </div>
+      </div>
+      <div class="" mdbCollapse #plot="bs-collapse">
+        <img src="../../assets/images/plot.png" style="width:728px;height:583px;">
+      </div>
+      <!--<div style="display: block">
+        <canvas mdbChart [chartType]="plotType" [datasets]="plotDatasets" [labels]="plotLabels" [colors]="plotColors"
+          [options]="plotOptions" [legend]="true" (chartHover)="plotHovered($event)" (chartClick)="plotClicked($event)">
+        </canvas>
+      </div>-->
     </div>
   </main>
 
@@ -68,6 +154,7 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
   <script src="../assets/dist/js/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
 </body>
 
 </html>

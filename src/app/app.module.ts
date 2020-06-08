@@ -8,13 +8,15 @@ import { DaanComponent } from './daan/daan.component';
 import { ProgrammingComponent } from './programming/programming.component';
 import { ChartsModule, WavesModule, CollapseModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { ScienceComponent } from './science/science.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PowerliftenComponent,
     DaanComponent,
-    ProgrammingComponent
+    ProgrammingComponent,
+    ScienceComponent
   ],
   imports: [
     BrowserModule,

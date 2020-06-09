@@ -39,22 +39,221 @@
   .custom-select {
     position: relative;
     font-family: Arial;
-    background-color: rgb(100,100,100);
+    background-color: rgb(100, 100, 100);
     color: white;
-    border-color: rgb(100,100,100);
+    border-color: rgb(100, 100, 100);
   }
 
   .custom-select select {
     display: block;
+  }
+
+  .column-top {
+    margin: auto;
+    text-align: center;
+  }
+
+  #Daan140Deadlift {
+    position: relative;
+  }
+
+  #title {
+    position: relative;
+    z-index: 1;
+  }
+
+  .resizable-image:hover {
+    cursor: pointer;
+  }
+
+  .column-body {
+    margin: auto;
+    text-align: justify;
+    width: 50%;
+    padding: 20px;
+    margin-top: 0px;
+  }
+
+  .column-body-title {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .lifter-button {
+    background-color: rgb(13, 150, 145);
+    color: white;
+    border-color: rgb(13, 150, 145);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: large;
+    transition: 0.3s;
+  }
+
+  .lifter-button:hover {
+    background-color: white;
+    color: rgb(13, 150, 145);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #videos {
+    margin: auto;
+    padding: 10px;
+  }
+
+  #quoteMaddox {
+    font-style: bold;
+
+  }
+
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  blockquote p {
+    display: inline;
   }
 </style>
 
 <body>
   <main role="main" class="container">
     <div class="starter-template">
-      <h1>Powerlifting</h1>
-      <p class="lead">Hier gaan we powerliften!</p>
+
+      <div class="row">
+        <div class="column column-top" style="width: 60%;">
+          <img id="Daan140Deadlift" class="resizable-image" (mouseup)="mouseUp('Daan140Deadlift')"
+            (mousedown)="mouseDown('Daan140Deadlift')" src="../../assets/images/Deadlift_06062020_140kg-0001.png"
+            width="600px" height="337px">
+        </div>
+        <div class="column column-top" style="width: 40%;">
+          <h1 id="title">Powerlifting</h1><br>
+          <blockquote>
+            <p id="quoteMaddox">If you want something bad enough, you'll do whatever it takes to make sure you
+              accomplish your
+              mission.</p><br>
+            <cite>Julius Maddox</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column column-body-title">
+          <h2>Mijn Hobby</h2>
+        </div>
+        <div class="column column-body-title">
+          <h2>Aantal van mijn helden</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column column-body">
+          <p class="lead">Sporten is een van mijn grootste hobbies. Met name de krachtsporten en sinds december 2019 ben
+            ik ook begonnen met powerliften. Door de coronacrisis is het helaas op een wat lager pitje komen te staan.<br>
+            Vlak voor het invoeren van de lockdown, na 3 maanden in de sport, stond ik op een 155kg deadlift, 105kg
+            squat en 85kg benchpress. Later heb ik thuis weer wat kunnen doen en op de foto sta ik met 140kg in mijn
+            handen.</p>
+        </div>
+
+        <div class="column column-body">
+          <p class="lead">Combinatie van powerlifters en strongmen. Video's zijn niet door mij gemaakt.</p>
+          <table>
+            <tr>
+              <td>
+                <button mdbBtn color="primary" class="waves-light lifter-button" type="button"
+                  (click)="TomStoltman.hide();Shaw.hide();Hall.hide();Wheels.hide();Magnusson.hide();Maddox.toggle();"
+                  mdbWavesEffect>
+                  Julius Maddox
+                </button>
+              </td>
+              <td>
+                <button mdbBtn color="primary" class="waves-light lifter-button" type="button"
+                  (click)="TomStoltman.hide();Maddox.hide();Hall.hide();Wheels.hide();Magnusson.hide();Shaw.toggle()"
+                  mdbWavesEffect>
+                  Brian Shaw
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button mdbBtn color="primary" class="waves-light lifter-button" type="button"
+                  (click)="Maddox.hide();Shaw.hide();Hall.hide();Wheels.hide();Magnusson.hide();TomStoltman.toggle();"
+                  mdbWavesEffect>
+                  Tom Stoltman
+                </button>
+              </td>
+              <td>
+                <button mdbBtn color="primary" class="waves-light lifter-button" type="button"
+                  (click)="Maddox.hide();Shaw.hide();TomStoltman.hide();Wheels.hide();Magnusson.hide();Hall.toggle();"
+                  mdbWavesEffect>
+                  Eddie Hall
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button mdbBtn color="primary" class="waves-light lifter-button" type="button"
+                  (click)="Maddox.hide();Shaw.hide();TomStoltman.hide();Hall.hide();Magnusson.hide();Wheels.toggle();"
+                  mdbWavesEffect>
+                  Larry Wheels
+                </button>
+              </td>
+              <td>
+                <button mdbBtn color="primary" class="waves-light lifter-button" type="button"
+                  (click)="Maddox.hide();Shaw.hide();TomStoltman.hide();Hall.hide();Wheels.hide();Magnusson.toggle();"
+                  mdbWavesEffect>
+                  Benedikt Magnusson
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="videos">
+          <div class="" mdbCollapse #Maddox="bs-collapse">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/MNixumxRsHU" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="" mdbCollapse #TomStoltman="bs-collapse">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/pmyjLANBC9Q" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="" mdbCollapse #Shaw="bs-collapse">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/VcOj_bwQLRo" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="" mdbCollapse #Hall="bs-collapse">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/hmqsL7yLOoI" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="" mdbCollapse #Wheels="bs-collapse">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/0DlFMxqV7mQ" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="" mdbCollapse #Magnusson="bs-collapse">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/5M13EBl_jF0" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
     </div>
+
   </main>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

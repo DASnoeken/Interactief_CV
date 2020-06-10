@@ -127,6 +127,11 @@
   blockquote p {
     display: inline;
   }
+
+  #quotes {
+    border: 2px solid black;
+    cursor: pointer;
+  }
 </style>
 
 <body>
@@ -141,12 +146,28 @@
         </div>
         <div class="column column-top" style="width: 40%;">
           <h1 id="title">Powerlifting</h1><br>
-          <blockquote>
-            <p id="quoteMaddox">If you want something bad enough, you'll do whatever it takes to make sure you
-              accomplish your
-              mission.</p><br>
-            <cite>Julius Maddox</cite>
-          </blockquote>
+          <div id="quotes" (mouseup)="changeQuote()">
+            <blockquote id="bqMaddox">
+              <p id="quoteMaddox">If you want something bad enough, you'll do whatever it takes to make sure you
+                accomplish your
+                mission.</p><br>
+              <cite>Julius Maddox</cite>
+            </blockquote>
+            <blockquote id="bqShaw" hidden>
+              <p id="quoteShaw">
+                The gym was always a constant. A 45lb bar weighs 45lbs, whether you have a shitty day or a great day.
+              </p><br>
+              <cite>Brian Shaw</cite>
+            </blockquote>
+            <blockquote id="bqHall" hidden>
+              <p id="quoteHall">
+                I've proved a lot of people wrong, and it's made me really happy. It makes me wanna go on, and prove
+                more people wrong.
+              </p><br>
+              <cite>Eddie Hall</cite>
+            </blockquote>
+
+          </div>
         </div>
       </div>
 
@@ -162,7 +183,8 @@
       <div class="row">
         <div class="column column-body">
           <p class="lead">Sporten is een van mijn grootste hobbies. Met name de krachtsporten en sinds december 2019 ben
-            ik ook begonnen met powerliften. Door de coronacrisis is het helaas op een wat lager pitje komen te staan.<br>
+            ik ook begonnen met powerliften. Door de coronacrisis is het helaas op een wat lager pitje komen te
+            staan.<br>
             Vlak voor het invoeren van de lockdown, na 3 maanden in de sport, stond ik op een 155kg deadlift, 105kg
             squat en 85kg benchpress. Later heb ik thuis weer wat kunnen doen en op de foto sta ik met 140kg in mijn
             handen.</p>

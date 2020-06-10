@@ -11,9 +11,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 export class PowerliftenComponent {
   title = 'Daan Snoeken';
   @ViewChildren(CollapseComponent) collapses: CollapseComponent[];
-
+  quoteID=1;
   public constructor(private titleService: Title, private bim: BrowserAnimationsModule) {
     this.titleService.setTitle(this.title)
+    
   }
   mouseDown(id: string) {
     document.getElementById(id).style.transition = "all 0.2s";
@@ -31,6 +32,31 @@ export class PowerliftenComponent {
     document.getElementById(id).style.boxShadow = "0 0px 0px 0 rgba(0, 0, 0, 0)";
   }
 
+  changeQuote(){
+    switch(this.quoteID){
+      case 1:{
+        document.getElementById('bqMaddox').hidden=true;
+        document.getElementById('bqShaw').hidden=false;
+        document.getElementById('bqHall').hidden=true;
+        this.quoteID++;
+        break;
+      }
+      case 2 : {
+        document.getElementById('bqMaddox').hidden=true;
+        document.getElementById('bqShaw').hidden=true;
+        document.getElementById('bqHall').hidden=false;
+        this.quoteID++;
+        break;
+      }
+      case 3 : {
+        document.getElementById('bqMaddox').hidden=false;
+        document.getElementById('bqShaw').hidden=true;
+        document.getElementById('bqHall').hidden=true;
+        this.quoteID=1;
+        break;
+      }
+    }
+  }
 
 
   public setTitle() {

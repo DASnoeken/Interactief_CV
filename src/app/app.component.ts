@@ -35,8 +35,8 @@ export class AppComponent {
   }
   getCV() {
     let link = document.createElement("a");
-    link.download = "Daan_Snoeken-YC_NEXT_CV";
-    link.href = "../assets/CV/Daan_Snoeken-YC_NEXT_CV.pdf";
+    link.download = "CV";
+    link.href = "../assets/CV/CV.pdf";
     link.click();
   }
 }

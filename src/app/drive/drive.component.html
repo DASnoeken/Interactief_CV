@@ -60,6 +60,26 @@
     text-align: center;
     padding: 20px;
   }
+
+  #poem {
+    text-align: justify;
+  }
+
+  .body-button {
+    background-color: rgb(13, 150, 145);
+    color: white;
+    border-color: rgb(13, 150, 145);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: large;
+    transition: 0.3s;
+  }
+
+  .body-button:hover {
+    background-color: white;
+    color: rgb(13, 150, 145);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
 </style>
 
 <body>
@@ -104,20 +124,63 @@
         </div>
       </div>
       <div class="row">
-        <div class="column">
-            <ul>
-              <li>
-                <p class="lead">Sterk analytisch denkvermogen</p>
-              </li>
-              <li>
-                <p class="lead">Sterk oog voor detail</p>
-              </li>
-              <li>
-                <p class="lead" style="text-align: left;">Sterk probleemoplossend vermogen</p>
-              </li>
-            </ul>
+        <div class="column" style="width: 100%;">
+          <button mdbBtn color="primary" class="waves-light body-button" type="button" (click)="HowDie.toggle();"
+            mdbWavesEffect>
+            Gedicht
+          </button>
+        </div>
+        <div class="" mdbCollapse #HowDie="bs-collapse">
+          <div id="poem" class="row">
+            <div class="column" style="width: 39%; padding:5px">
+              <h2 id="TitelHowDieCooke">
+                How Did You Die?
+              </h2>
+              <p id="HowDieCooke" class="lead">
+                Did you tackle that trouble that came your way<br>
+                With a resolute heart and cheerful?<br>
+                Or hide your face from the light of day<br>
+                With a craven soul and fearful?<br>
+                <br>
+                Oh, a trouble's a ton, or a trouble's an ounce,<br>
+                Or a trouble is what you make it,<br>
+                And it isn't the fact that you're hurt that counts,<br>
+                But only how did you take it?<br>
+                <br>
+                You are beaten to earth? Well, well, what's that!<br>
+                Come up with a smiling face.<br>
+                It's nothing against you to fall down flat,<br>
+                But to lie there-that's disgrace.<br>
+                <br>
+                The harder you're thrown, why the higher you bounce<br>
+                Be proud of your blackened eye!<br>
+                It isn't the fact that you're licked that counts;<br>
+                It's how did you fight-and why?<br>
+                <br>
+                And though you be done to the death, what then?<br>
+                If you battled the best you could,<br>
+                If you played your part in the world of men,<br>
+                Why, the Critic will call it good.<br>
+                <br>
+                Death comes with a crawl, or comes with a pounce,<br>
+                And whether he's slow or spry,<br>
+                It isn't the fact that you're dead that counts,<br>
+                But only how did you die?<br>
+                <br>
+                - <b>Edmund Vance Cooke</b><br>
+              </p>
+            </div>
+            <div class="column" style="align-content: left; padding: 5px;">
+              <iframe width="600" height="370" src="https://www.youtube.com/embed/WgDCoH79kyo" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
         </div>
       </div>
+
+
     </div>
   </div>
 

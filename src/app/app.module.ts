@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PowerliftenComponent } from './powerliften/powerliften.component';
 import { DaanComponent } from './daan/daan.component';
+import { DriveComponent } from './drive/drive.component';
 import { ProgrammingComponent } from './programming/programming.component';
 import { ChartsModule, WavesModule, CollapseModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
@@ -16,7 +17,8 @@ import { ScienceComponent } from './science/science.component';
     PowerliftenComponent,
     DaanComponent,
     ProgrammingComponent,
-    ScienceComponent
+    ScienceComponent,
+    DriveComponent
   ],
   imports: [
     BrowserModule,

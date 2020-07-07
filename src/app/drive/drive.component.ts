@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChildren } from '@angular/core';
+import { CollapseComponent } from 'angular-bootstrap-md';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @Component({
     selector: 'int-drive',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
     styleUrls: ['../app.component.css']
 })
 export class DriveComponent{
-    
+    @ViewChildren(CollapseComponent) collapses: CollapseComponent[];
+    constructor(private bim: BrowserAnimationsModule) { }
 }

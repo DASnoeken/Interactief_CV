@@ -52,7 +52,7 @@ export class ProgrammingComponent {
     public frontendDatasets: Array<any> = [
         { data: [30, 20, 30, 30, 20, 60, 40, 30, 0, 100], label: 'Frontend Skills' }
     ];
-    public frontendLabels: Array<any> = ['HTML5', 'TypeScript', 'CSS3', 'Angular 6', 'Bootstrap', 'LaTeX', 'Java Swing', 'JavaScript'];
+    public frontendLabels: Array<any> = ['HTML5', 'TypeScript', 'CSS3', 'Angular 9', 'Bootstrap', 'LaTeX', 'Java Swing', 'JavaScript'];
     public frontendColors: Array<any> = [
         {
             backgroundColor: [

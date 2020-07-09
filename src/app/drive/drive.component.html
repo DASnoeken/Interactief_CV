@@ -126,12 +126,16 @@
       <div class="row">
         <div class="column" style="width: 100%;">
           <button mdbBtn color="primary" class="waves-light body-button" type="button"
-            (click)="Jona.hide();HowDie.toggle();" mdbWavesEffect>
+            (click)="Jona.hide();HowDie.toggle();TwoRoads.hide();" mdbWavesEffect>
             How Did You Die?
           </button>&#160;
           <button mdbBtn color="primary" class="waves-light body-button" type="button"
-            (click)="Jona.toggle();HowDie.hide();" mdbWavesEffect>
+            (click)="Jona.toggle();HowDie.hide();TwoRoads.hide();" mdbWavesEffect>
             Jona
+          </button>&#160;
+          <button mdbBtn color="primary" class="waves-light body-button" type="button"
+            (click)="Jona.hide();HowDie.hide();TwoRoads.toggle();" mdbWavesEffect>
+            The Road Not Taken
           </button>
         </div>
         <div class="" mdbCollapse #HowDie="bs-collapse">
@@ -184,19 +188,23 @@
         <div class="" mdbCollapse #Jona="bs-collapse" style="text-align: justify;">
           <h2>Het Boek van Jona</h2>
           <button mdbBtn color="primary" class="waves-light body-button" type="button"
-            (click)="JonaHoofdstuk1.toggle();JonaHoofdstuk2.hide();JonaHoofdstuk3.hide();JonaHoofdstuk4.hide();" mdbWavesEffect>
+            (click)="JonaHoofdstuk1.toggle();JonaHoofdstuk2.hide();JonaHoofdstuk3.hide();JonaHoofdstuk4.hide();"
+            mdbWavesEffect>
             1:1-17
           </button>&#160;
           <button mdbBtn color="primary" class="waves-light body-button" type="button"
-            (click)="JonaHoofdstuk1.hide();JonaHoofdstuk2.toggle();JonaHoofdstuk3.hide();JonaHoofdstuk4.hide();" mdbWavesEffect>
+            (click)="JonaHoofdstuk1.hide();JonaHoofdstuk2.toggle();JonaHoofdstuk3.hide();JonaHoofdstuk4.hide();"
+            mdbWavesEffect>
             2:1-10
           </button>&#160;
           <button mdbBtn color="primary" class="waves-light body-button" type="button"
-            (click)="JonaHoofdstuk1.hide();JonaHoofdstuk2.hide();JonaHoofdstuk3.toggle();JonaHoofdstuk4.hide();" mdbWavesEffect>
+            (click)="JonaHoofdstuk1.hide();JonaHoofdstuk2.hide();JonaHoofdstuk3.toggle();JonaHoofdstuk4.hide();"
+            mdbWavesEffect>
             3:1-10
           </button>&#160;
           <button mdbBtn color="primary" class="waves-light body-button" type="button"
-            (click)="JonaHoofdstuk1.hide();JonaHoofdstuk2.hide();JonaHoofdstuk3.hide();JonaHoofdstuk4.toggle();" mdbWavesEffect>
+            (click)="JonaHoofdstuk1.hide();JonaHoofdstuk2.hide();JonaHoofdstuk3.hide();JonaHoofdstuk4.toggle();"
+            mdbWavesEffect>
             4:1-11
           </button>&#160;
           <div class="" mdbCollapse #JonaHoofdstuk1="bs-collapse">
@@ -315,6 +323,45 @@
               11. En Ik zou die grote stad Nineve niet verschonen? waarin veel meer dan honderd en twintig duizend
               mensen zijn, die geen onderscheid weten tussen hun rechterhand, en hun linkerhand; daartoe veel vee?<br>
             </p>
+          </div>
+        </div>
+        <div class="" mdbCollapse #TwoRoads="bs-collapse">
+          <div id="poem2" class="row">
+            <div class="column" style="width: 39%; padding:5px">
+              <h2>The Road Not Taken</h2>
+              <p class="lead">
+                Two roads diverged in a yellow wood,<br>
+                And sorry I could not travel both<br>
+                And be one traveler, long I stood<br>
+                And looked down one as far as I could<br>
+                To where it bent in the undergrowth;<br>
+                <br>
+                Then took the other, as just as fair,<br>
+                And having perhaps the better claim,<br>
+                Because it was grassy and wanted wear;<br>
+                Though as for that the passing there<br>
+                Had worn them really about the same,<br>
+                <br>
+                And both that morning equally lay<br>
+                In leaves no step had trodden black.<br>
+                Oh, I kept the first for another day!<br>
+                Yet knowing how way leads on to way,<br>
+                I doubted if I should ever come back.<br>
+                <br>
+                I shall be telling this with a sigh<br>
+                Somewhere ages and ages hence:<br>
+                Two roads diverged in a wood, and I—<br>
+                I took the one less traveled by,<br>
+                And that has made all the difference<br>
+                <br>
+                - <b>Robert Frost</b><br>
+              </p>
+            </div>
+            <div class="column" style="align-content: left; padding: 5px;">
+              <iframe width="600" height="370" src="https://www.youtube.com/embed/vrBHd41YqTc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>

@@ -27,8 +27,8 @@
               "src/styles.css"
             ],
             "scripts": [
-				"node_modules/chart.js/dist/Chart.js"
-			]
+              "node_modules/chart.js/dist/Chart.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -121,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "het-cv"
+    }
+  },
+  "defaultProject": "het-cv",
+  "cli": {
+    "analytics": false
+  }
 }

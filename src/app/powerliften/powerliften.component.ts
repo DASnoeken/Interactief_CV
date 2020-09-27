@@ -38,6 +38,7 @@ export class PowerliftenComponent {
         document.getElementById('bqMaddox').hidden=true;
         document.getElementById('bqShaw').hidden=false;
         document.getElementById('bqHall').hidden=true;
+        document.getElementById('bqSigmarsson').hidden=true;
         this.quoteID++;
         break;
       }
@@ -45,6 +46,7 @@ export class PowerliftenComponent {
         document.getElementById('bqMaddox').hidden=true;
         document.getElementById('bqShaw').hidden=true;
         document.getElementById('bqHall').hidden=false;
+        document.getElementById('bqSigmarsson').hidden=true;
         this.quoteID++;
         break;
       }
@@ -52,6 +54,15 @@ export class PowerliftenComponent {
         document.getElementById('bqMaddox').hidden=false;
         document.getElementById('bqShaw').hidden=true;
         document.getElementById('bqHall').hidden=true;
+        document.getElementById('bqSigmarsson').hidden=true;
+        this.quoteID++;
+        break;
+      }
+      case 4 : {
+        document.getElementById('bqMaddox').hidden=true;
+        document.getElementById('bqShaw').hidden=true;
+        document.getElementById('bqHall').hidden=true;
+        document.getElementById('bqSigmarsson').hidden=false;
         this.quoteID=1;
         break;
       }

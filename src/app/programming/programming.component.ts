@@ -13,9 +13,9 @@ export class ProgrammingComponent {
 
     public overigType: string = 'horizontalBar';
     public overigDatasets: Array<any> = [
-        { data: [40, 10, 10, 20, 20, 90, 90, 50, 0, 100], label: 'Overig skills' }
+        { data: [40, 10, 10, 20, 20, 90, 90, 50, 60, 0, 100], label: 'Overig skills' }
     ];
-    public overigLabels: Array<any> = ['GitHub', 'Scrum', 'Agile', 'UML', 'XAMPP', 'Ubuntu Linux', 'Windows 10', 'Eclipse IDE'];
+    public overigLabels: Array<any> = ['GitHub', 'Scrum', 'Agile', 'UML', 'XAMPP', 'Ubuntu Linux', 'Windows 10', 'Eclipse IDE', 'LaTeX'];
     public overigColors: Array<any> = [
         {
             backgroundColor: [
@@ -26,7 +26,8 @@ export class ProgrammingComponent {
                 'rgba(251, 123, 36, 0.4)',
                 'rgba(221, 72, 20, 0.4)',
                 'rgba(35, 118, 188, 0.4)',
-                'rgba(65, 52, 124, 0.4)'
+                'rgba(65, 52, 124, 0.4)',
+                'rgba(0, 128, 128, 0.4)'
             ],
             borderColor: [
                 'rgba(36, 41, 46, 1)',
@@ -36,7 +37,8 @@ export class ProgrammingComponent {
                 'rgba(251, 123, 36, 1)',
                 'rgba(221, 72, 20, 1)',
                 'rgba(35, 118, 188, 1)',
-                'rgba(44, 34, 84, 1)'
+                'rgba(44, 34, 84, 1)',
+                'rgba(0, 128, 128, 1)'
             ],
             borderWidth: 2
         }
@@ -50,9 +52,9 @@ export class ProgrammingComponent {
 
     public frontendType: string = 'horizontalBar';
     public frontendDatasets: Array<any> = [
-        { data: [30, 20, 30, 30, 20, 60, 40, 30, 0, 100], label: 'Frontend Skills' }
+        { data: [40, 30, 40, 30, 20,  30, 40, 0, 100], label: 'Frontend Skills' }
     ];
-    public frontendLabels: Array<any> = ['HTML5', 'TypeScript', 'CSS3', 'Angular 9', 'Bootstrap', 'LaTeX', 'Java Swing', 'JavaScript'];
+    public frontendLabels: Array<any> = ['HTML5', 'TypeScript', 'CSS3', 'Angular 9', 'Bootstrap',  'Java Swing', 'JavaScript'];
     public frontendColors: Array<any> = [
         {
             backgroundColor: [
@@ -61,7 +63,7 @@ export class ProgrammingComponent {
                 'rgba(29, 120, 200, 0.4)',
                 'rgba(220, 3, 48, 0.4)',
                 'rgba(116, 69, 173, 0.4)',
-                'rgba(0, 128, 128, 0.4)',
+                
                 'rgba(128, 128, 0, 0.4)',
                 'rgba(230, 200, 0, 0.4)'
             ],
@@ -71,7 +73,6 @@ export class ProgrammingComponent {
                 'rgba(29, 120, 200, 1)',
                 'rgba(195, 14, 45, 1)',
                 'rgba(88, 61, 128,1)',
-                'rgba(0, 128, 128, 1)',
                 'rgba(128, 128, 0, 1)',
                 'rgba(230, 200, 0, 1)'
             ],
@@ -87,7 +88,7 @@ export class ProgrammingComponent {
 
     public backendType: string = 'horizontalBar';
     public backendDatasets: Array<any> = [
-        { data: [30, 30, 20, 30, 30, 20, 0, 100], label: 'Backend Skills' }
+        { data: [40, 30, 30, 40, 40, 30, 0, 100], label: 'Backend Skills' }
     ];
     public backendLabels: Array<any> = ['Spring', 'JPA', 'Maven', 'REST/HTTP', 'Swagger', 'JUnit'];
     public backendColors: Array<any> = [
@@ -121,7 +122,7 @@ export class ProgrammingComponent {
     public talenType: string = 'horizontalBar';
 
     public talenDatasets: Array<any> = [
-        { data: [60, 80, 40, 30, 20, 90, 90, 50, 0, 100], label: 'Mijn Skills' }
+        { data: [70, 80, 40, 30, 20, 80, 80, 50, 0, 100], label: 'Mijn Skills' }
     ];
 
     public talenLabels: Array<any> = ['Java', 'C++', 'Python', 'SQL', 'Fortran', 'Matlab', 'Scilab', 'Bash'];

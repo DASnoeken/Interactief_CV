@@ -99,6 +99,11 @@
       color: rgb(56, 177, 173);
       content: "E-mail";
     }
+
+    #button-math .nav-button:hover::before{
+      color: rgb(56, 177, 173);
+      content: "MathApp";
+    }
   </style>
 
 </head>
@@ -142,6 +147,11 @@
       <li id="button-mail" class="nav-item">
         <button class="nav-button" id="mail-button" (click)="sendMail()">
           <span><img src="../assets/images/mail.png" width="40px" height="40px"></span>
+        </button>
+      </li>&#160;
+      <li id="button-math" class="nav-item">
+        <button class="nav-button" id="math-button" (click)="goToLink('https://daansmathapp.herokuapp.com')">
+          <span><img src="../assets/images/math.png" width="40px" height="40px"></span>
         </button>
       </li>
     </ul>

@@ -15,6 +15,9 @@ export class DaanComponent {
         }else if(id==='badge'){
             document.getElementById(id).style.width = "150px";
             document.getElementById(id).style.height = "150px";
+        }else if(id==='EasydusLogo'){
+            document.getElementById(id).style.width = "300px";
+            document.getElementById(id).style.height = "150px";
         }
         document.getElementById(id).style.zIndex = "1";
         document.getElementById(id).style.boxShadow = "0 12px 16px 0 rgba(0, 0, 0, 0)";
@@ -28,8 +31,11 @@ export class DaanComponent {
         }else if(id==='badge'){
             document.getElementById(id).style.width = "300px";
             document.getElementById(id).style.height = "300px";
+        }else if(id==='EasydusLogo'){
+            document.getElementById(id).style.width = "600px";
+            document.getElementById(id).style.height = "300px";
+            document.getElementById(id).style.boxShadow = "0 18px 25px 0 rgba(0, 0, 0, 1), 0 20px 60px 0 rgba(0, 0, 0, 0.5), 0 40px 80px 0 rgba(0,0,0,0.1)";
         }
         document.getElementById(id).style.zIndex = "100";
-        
     }
 }

@@ -3,3 +3,6 @@ h1{
     font-weight: bold;
     font-size: 60px;
 }
+img{
+    position: relative;
+}

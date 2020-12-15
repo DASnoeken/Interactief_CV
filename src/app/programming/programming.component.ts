@@ -99,7 +99,7 @@ export class ProgrammingComponent {
                 'rgba(255, 35, 77, 0.4)',
                 'rgba(56, 158, 173, 0.4)',
                 'rgba(109, 154, 0, 0.4)',
-                'rgba(220, 82, 74, 0.4)'
+                'rgba(220, 82, 74, 0.4)',
             ],
             borderColor: [
                 'rgba(109, 179, 63, 1)',
@@ -107,7 +107,7 @@ export class ProgrammingComponent {
                 'rgba(255, 35, 77, 1)',
                 'rgba(56, 158, 173, 1)',
                 'rgba(109, 154, 0, 1)',
-                'rgba(37, 161, 98, 1)',
+                'rgba(37, 161, 98, 1)'
             ],
             borderWidth: 2
         }
@@ -122,10 +122,10 @@ export class ProgrammingComponent {
     public talenType: string = 'horizontalBar';
 
     public talenDatasets: Array<any> = [
-        { data: [70, 80, 40, 30, 20, 80, 80, 50, 0, 100], label: 'Mijn Skills' }
+        { data: [80, 70, 40, 30, 20, 80, 80, 50, 20, 0, 100], label: 'Mijn Skills' }
     ];
 
-    public talenLabels: Array<any> = ['Java', 'C++', 'Python', 'SQL', 'Fortran', 'Matlab', 'Scilab', 'Bash'];
+    public talenLabels: Array<any> = ['Java', 'C++', 'Python', 'SQL', 'Fortran', 'Matlab', 'Scilab', 'Bash','PHP'];
 
     public talenColors: Array<any> = [
         {
@@ -137,7 +137,8 @@ export class ProgrammingComponent {
                 'rgba(190, 110, 150, 0.4)',
                 'rgba(220, 90, 160, 0.4)',
                 'rgba(190, 50, 180, 0.4)',
-                'rgba(25,200,120,0.4)'
+                'rgba(25,200,120,0.4)',
+                'rgba(180, 120, 50, 0.4)'
 
             ],
             borderColor: [
@@ -148,7 +149,8 @@ export class ProgrammingComponent {
                 'rgba(190, 110, 150, 1)',
                 'rgba(190, 50, 180, 1)',
                 'rgba(220, 90, 160, 1)',
-                'rgba(25,200,120,1)'
+                'rgba(25,200,120,1)',
+                'rgba(180, 120, 50, 1)'
             ],
             borderWidth: 2
         }

@@ -6,3 +6,96 @@ h1{
 img{
     position: relative;
 }
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  body {
+    padding-top: 5rem;
+  }
+
+  .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .custom-select {
+    position: relative;
+    font-family: Arial;
+    background-color: rgb(126, 126, 126);
+    color: white;
+    border-color: rgb(100, 100, 100);
+    cursor: pointer;
+    height: 50px;
+  }
+
+  .custom-select select {
+    display: block;
+  }
+
+  .topOption{
+    color: white;
+  }
+
+  .custom-select:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .nav-button {
+    position: relative;
+    font-family: Arial;
+    background-color: rgb(155, 155, 155);
+    color: white;
+    border-color: rgb(177, 177, 177);
+    cursor: pointer;
+    height: 50px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+
+  .nav-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(17, 17, 17);
+    border-color: black;
+  }
+
+  .nav-button:hover span {
+    display: none;
+  }
+
+  #button-github .nav-button:hover:before {
+    content: "GitHub";
+    color: rgb(56, 177, 173);
+  }
+
+  #button-linkedin .nav-button:hover:before {
+    content: "LinkedIn";
+    color: rgb(56, 177, 173);
+  }
+
+  #button-cv .nav-button:hover:before {
+    color: rgb(56, 177, 173);
+    content: "CV pdf";
+  }
+
+  #button-mail .nav-button:hover:before {
+    color: rgb(56, 177, 173);
+    content: "E-mail";
+  }
+
+  #button-math .nav-button:hover::before{
+    color: rgb(56, 177, 173);
+    content: "MathApp";
+  }

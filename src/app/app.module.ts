@@ -10,6 +10,8 @@ import { ProgrammingComponent } from './programming/programming.component';
 import { ChartsModule, WavesModule, CollapseModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { ScienceComponent } from './science/science.component';
+import { HavamalComponent } from './havamal/havamal.component';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { ScienceComponent } from './science/science.component';
     DaanComponent,
     ProgrammingComponent,
     ScienceComponent,
-    DriveComponent
+    DriveComponent,
+    HavamalComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { ScienceComponent } from './science/science.component';
     ChartsModule,
     WavesModule,
     CollapseModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

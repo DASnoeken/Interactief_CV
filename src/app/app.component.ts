@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
@@ -18,9 +18,6 @@ export class AppComponent {
   public setTitle() {
     this.titleService.setTitle(this.title);
   }
-  test() {
-    alert("hoi");
-  }
   changeWindow($event) {
     this.router.navigateByUrl($event.target.value);
   }
@@ -39,4 +36,6 @@ export class AppComponent {
     link.href = "../assets/CV/CV.pdf";
     link.click();
   }
+
+  public isCollapsed = true;
 }

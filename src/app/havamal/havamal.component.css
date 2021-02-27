@@ -1,3 +1,11 @@
 #havamal {
-    border: 1px solid black;
+    width: 100%;
+}
+
+.havamalHead{
+    border: 2px solid black;
+}
+.havamalColumn{
+    border: 2px solid black;
+    padding: 5px;
 }

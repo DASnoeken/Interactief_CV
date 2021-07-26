@@ -99,6 +99,31 @@
             </div>
             <div class="row">
                 <h2>Inhoud met vertaling</h2>
+            </div>
+
+            <div class="row">
+                <label><input type="number" [(ngModel)]="searchStanza" min="1" max="164">&nbsp;Zoek een stanza</label>
+            </div>
+            
+            <div class="row" *ngIf="searchStanza > 0 && searchStanza <= 164">
+                <table class="havamalTables">
+                    <tr class="havamalRow">
+                        <th class="havamalHead">Stanza</th>
+                        <th class="havamalHead">Oudnoords</th>
+                        <th class="havamalHead">Nederlands</th>
+                    </tr>
+                    <tr class="havamalRow">
+                        <td class="havamalColumn"><b>{{ searchStanza }}</b></td>
+                        <td class="havamalColumn">{{ ON[searchStanza - 1] }}</td>
+                        <td class="havamalColumn">{{ NL[searchStanza - 1] }}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="row" *ngIf="searchStanza && (searchStanza <= 0 || searchStanza > 164)">
+                De stanza met nummer {{ searchStanza }} bestaat niet!
+            </div>
+
+            <div class="row" *ngIf="!searchStanza && searchStanza !== 0">
                 <table class="havamalTables">
                     <tr class="havamalRow">
                         <th class="havamalHead">Stanza</th>
@@ -112,6 +137,7 @@
                     </tr>
                 </table>
             </div>
+
         </div>
     </div>
 </body>

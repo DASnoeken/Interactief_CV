@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { isNumber } from '@ng-bootstrap/ng-bootstrap/util/util';
 
 @Component({
     selector: 'int-havamal',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class HavamalComponent{
     special: string[] = ['Ǫ', 'ǫ', 'ǿ', 'Ǿ', 'ψ'];
+    searchStanza: number = null;
 
     ON: string[] = [
         `Gáttir allar áðr gangi fram \n um skoðask skyli, \n um skyggnask skyli-- \n því at óvíst er at vita \n hvar óvinir \n sitja á fleti fyrir.`,

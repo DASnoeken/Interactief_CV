@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { isNumber } from '@ng-bootstrap/ng-bootstrap/util/util';
 
 @Component({
     selector: 'int-havamal',
@@ -57,6 +56,11 @@ export class HavamalComponent{
         `Veiztu, ef þú vin átt,\n þann er þú vel trúir,\n ok vill þú af honum gott geta,\n geði skaltu við þann blanda,\n ok gjǫfum skipta,\n fara at finna opt.`,
         `Ef þú átt annan,\n þann's þú illa trúir,\n vildu af honum þó gott geta--\n fagrt skaltu við þann mæla\n en flátt hyggja,\n ok gjalda lausung við lygi.`,
         `Þat er enn of þann,\n er þú illa trúir,\n ok þér er grunt at hans geði:\n hlæja skaltu við þeim,\n ok um hug mæla,\n glík skulu gjǫld gjǫfum.`,
+        `Ungr var ek forðum,\n fór ek einn saman,\n þá varð ek villr vega.\n Auðigr þóttumsk\n er ek annan fann--\n ψ er manns gaman.`,
+        `Mildir, frǿknir,\n menn bazt lifa,\n sjaldan sút ala.\n En ósnjallr ` + this.special[4] + `\n uggir hotvetna,\n sýtir æ gløggr við gj` + this.special[1] + `fum.`,
+        `Váðir mínar\n gaf ek velli at\n tveim trém` + this.special[1] + `nnum.\n rekkar þat þóttusk,\n er þeir ript h`+ this.special[1] + `fðu;\n neiss er nøkkviðr halr.`,
+        `Hrørnar þ` + this.special[1] + `ll,\n sú er stendr þorpi á,\n hlýr-at henni b` + this.special[1] + `rkr né barr.\n Svá er ` + this.special[4] + `\n sá er manngi ann;\n hvat skal hann lengi lifa?`,
+        ``,
     ];
 
     NL: string[] = [
@@ -106,5 +110,10 @@ export class HavamalComponent{
         `Weet je, als je een vriend hebt,\n die je goed vertrouwt,\n en wil je dat er goed komt van de vriendschap--\n spreek hem vaak,\n geef elkaar een gift,\n bezoek hem vaak.`,
         `Als je een vriend hebt,\n die je slecht vertrouwt,\n en je wil dat er goed van komt--\n Spreek dan vriendelijk,\n vlei hem,\n en betaal zijn verraad met je eigen.`,
         `Diezelfde mensen,\n die je slecht vertrouwt,\n en  zijn gedachten wantrouwt:\n met hen moet je lachen,\n en spreken over je gedachten,\n en alles gelijk terugbetalen.`,
+        `Ik was ooit jong,\n ik liep alleen,\n en ik verloor mezelf onderweg.\n Ik voelde me rijk,\n toen ik een andere reiziger tegen kwam,\n mensen zijn diens geluk.`,
+        `Aardige, dappere\n mensen leven het best,\n koesteren zelden wrok.\n Echter, een onwijze man,\n maakt zich overal zorgen om,\n ze vrezen zelfs het wederkeren van een gift.`,
+        `Ik gaf mijn kleren\n aan twee vogelverschrikkers,\n toen ik door een veld liep.\n Ze dachten dat ze mens waren\n zodra ze kleren aan hadden;\n Een naakt mens schaamt zich.`,
+        `Een spar vergaat,\n staande over een boerderij,\n niet langer beschermd door bast en naald.\n Een mens is hetzelfde\n als niemand meer van diegene houdt;\n Hoe leeft die nog langer?`,
+        ``,
     ];
 }

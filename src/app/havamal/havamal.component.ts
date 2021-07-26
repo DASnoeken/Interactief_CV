@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 export class HavamalComponent{
     special: string[] = ['Ǫ', 'ǫ', 'ǿ', 'Ǿ', 'ψ'];
     searchStanza: number = null;
+    repeated: string[] = [
+        `Byrði betri\n berr-at ψ brautu at\n en sé mannvit mikit.\n`,
+        `Ósnotr ψ\n hyggr sér alla vera\n viðlæ jendr vini.\n`,
+        `Bú er betra\n þótt lílit sé–\n halr er heima hver.\n`
+    ];
 
     ON: string[] = [
         `Gáttir allar áðr gangi fram \n um skoðask skyli, \n um skyggnask skyli-- \n því at óvíst er at vita \n hvar óvinir \n sitja á fleti fyrir.`,
@@ -19,8 +24,8 @@ export class HavamalComponent{
         `Inn vari gestr\n er til verðar kømr,\n þunnu hlóði þegir,\n eyrum hlýðir\n en augum skoðar--\n svá nýsisk fróðra hverr fyrir.`,
         `Hinn er sæll\n er sér um getr\n lof ok líknstafi.\n Ódælla er við þat\n er ψ eiga skal\n annars brjóstum í.`,
         `Sá er sæll\n er sjálfr um á\n lof ok vit meðan lifir.\n Því at ill ráð\n hefir ψ opt þegit\n annars brjóstum ór.`,
-        `Byrði betri\n berr-at ψ brautu at\n en sé mannvit mikit.\n Auði betra\n þykkir þat í okunnum stað–\n slíkt er válaðs vera.`,
-        `Byrði betri\n berr-at ψ brautu at\n en sé mannvit mikit.\n Vegnest verra\n vegr-a hann velli at\n en sé ofdrykkja ǫls.`,
+        this.repeated[0] + `Auði betra\n þykkir þat í okunnum stað–\n slíkt er válaðs vera.`,
+        this.repeated[0] + `Vegnest verra\n vegr-a hann velli at\n en sé ofdrykkja ǫls.`,
         `Er-a svá gott\n sem gott kveða\n ǫl alda sonum.\n Því at færa veit\n er fleira drekkr,\n síns til geðs gumi.`,
         `Óminnishegri heitir\n sá er yfir ǫlðrum þrumir,\n hann stelr geði guma.\n Þess fugls fjǫðrum\n ek fjǫtraðr var’k\n í garði Gunnlaðar.`,
         `Ǫlr ek varð,\n varð ofrǫlvi,\n at ins fróða Fjalars.\n Því er ǫlðr bazt\n at aptr of heimtir\n hverr sitt geð gumi.`,
@@ -33,8 +38,8 @@ export class HavamalComponent{
         `Hjarðir þat vitu\n nær þær heim skulu\n ok ganga þá af grasi,\n en ósviðr ψ\n kann ævagi\n síns um mál maga.`,
         `Vesall ψ\n ok illa skapi\n hlær at hvívetna.\n Hittki hann veit\n er hann vita þyrfti:\n at hann er-at vamma vanr.`,
         `Ósviðr ψ\n vakir um allar nætr\n ok hyggr at hvívetna.\n Þá er móðr\n er at morni kømr,\n allt er víl sem var.`,
-        `Ósnotr ψ\n hyggr sér alla vera\n viðlæ jendr vini.\n Hittki hann finnr,\n þótt er um hann fár lesi,\n ef hann með snotrum sitr.`,
-        `Ósnotr ψ\n hyggr sér alla vera\n viðlæ jendr vini.\n Þá þat finnr,\n er at þingi kømr,\n at hann á formælendr fá.`,
+        this.repeated[1] + `Hittki hann finnr,\n þótt er um hann fár lesi,\n ef hann með snotrum sitr.`,
+        this.repeated[1] + `Þá þat finnr,\n er at þingi kømr,\n at hann á formælendr fá.`,
         `Ósnotr ψ\n þikkisk allt vita\n ef hann á sér í vá veru.\n Hittki hann veit\n hvat hann skal við kveða,\n ef hans freista firar.`,
         `Ósnotr ψ\n er með aldir kømr,\n þat er bazt at hann þegi.\n Engi þat veit\n at hann ekki kann,\n nema hann mæli til mart.\n Veit-a ψ\n hinn er vætki veit\n þótt hann mæli til mart.`,
         `Fróðr sá þykkisk\n er fregna kann,\n ok segja it sama.\n Eyvitu leyna\n megu ýta synir\n því er gengr um guma.`,
@@ -45,8 +50,8 @@ export class HavamalComponent{
         `Árlinga verðar\n skyli ψ opt fá\n nema til kynnis komi.\n Sitr ok snópir,\n lætr sem sólginn sé,\n ok kann fregna at fá.`,
         `Afhvarf mikit\n er til ills vinar,\n þótt á brautu búi.\n En til góðs vinar\n liggja gagnvegir,\n þótt hann sé firr farinn.`,
         `Ganga skal.\n Skal-a gestr vera\n ey í einum stað.\n Ljúfr verðr leiðr\n ef lengi stir\n annars fletjum á.`,
-        `Bú er betra\n þótt lílit sé–\n halr er heima hver.\n Þótt tvær geitr eigi\n ok taugreptan sal,\n þat er þó betra en bǿn.`,
-        `Bú er betra\n þótt lílit sé–\n halr er heima hver.\n Blóðugt er hjarta\n þeim er biðja skal\n sér í mál hvert matar.`,
+        this.repeated[2] + `Þótt tvær geitr eigi\n ok taugreptan sal,\n þat er þó betra en bǿn.`,
+        this.repeated[2] + `Blóðugt er hjarta\n þeim er biðja skal\n sér í mál hvert matar.`,
         `Vápnum sínum\n skal-a ψ velli á\n feti ganga framarr;\n því at óvist er at vita\n nær verðr á vegum úti\n geirs um þǫrf guma.`,
         `Fann’k-a ek mildan mann\n eða svá matar góðan\n at ei væri þiggja þegit,\n eða síns fjár\n svá gjǫflan\n at leið sé laun ef þegi.`,
         `Fjár síns\n er fengit hefr\n skyli-t ψ þǫrf þola.\n Opt sparir leiðum\n þat’s hefir ljúfum hugat–\n mart gengr verr en varir`,
@@ -73,7 +78,7 @@ export class HavamalComponent{
         `De attente gast\n die naar een maaltijd komt,\n is stil en luistert aandachtig,\n hij luistert met zijn oren\n hij kijkt met zijn ogen--\n Zo vinden de wijzen hun weg vooruit.`,
         `Hij die lof en verlichting\n vindt in zichzelf\n is gelukkig.\n Het is moeilijker\n voor hem om dat\n te hebben in andermans hart.`,
         `Diegene is gelukkig\n die voor zichzelf lof en wijsheid\n heeft tijdens het leven.\n Omdat slecht advies\n vaak ontvangen wordt door mensen\n uit andermans hart.`,
-        `Byrði betri\n berr-at ψ brautu at\n en sé mannvit mikit.\n Auði betra\n þykkir þat í okunnum stað–\n slíkt er válaðs vera.`,
+        `Een betere last\n kan niet gedragen worden\n door een man op reis dan grote wijsheid.\n Het is beter dan rijkdom\n op een onbekende plaats--\n Zo is het gemak van de armen.`,
         `Een betere last\n kan niet gedragen worden\n door een man op reis dan grote wijsheid.\n Een slechtere voorziening\n kan hij niet meenemen\n dan te veel alcohol.`,
         `Alcohol is niet zo goed\n als ze zeggen dat het is\n voor de mensen.\n Omdat ze minder weten\n als ze meer drinken,\n en zijn minder meester van hun geest.`,
         `Vergeetvogel heet het\n wat over vliegt als men drinkt,\n hij steelt een mens' geest.\n De vogel zijn veren\n hebben mij gevangen\n toen ik in Gunnlaðar's huis was.`,

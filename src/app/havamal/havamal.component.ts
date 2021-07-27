@@ -11,7 +11,8 @@ export class HavamalComponent{
     repeated: string[] = [
         `Byrði betri\n berr-at ψ brautu at\n en sé mannvit mikit.\n`,
         `Ósnotr ψ\n hyggr sér alla vera\n viðlæ jendr vini.\n`,
-        `Bú er betra\n þótt lílit sé–\n halr er heima hver.\n`
+        `Bú er betra\n þótt lílit sé–\n halr er heima hver.\n`,
+        `Meðalsnotr\n skyli manna hverr,\n æva til snotr sé.\n`,
     ];
 
     ON: string[] = [
@@ -65,7 +66,14 @@ export class HavamalComponent{
         `Mildir, frǿknir,\n menn bazt lifa,\n sjaldan sút ala.\n En ósnjallr ` + this.special[4] + `\n uggir hotvetna,\n sýtir æ gløggr við gj` + this.special[1] + `fum.`,
         `Váðir mínar\n gaf ek velli at\n tveim trém` + this.special[1] + `nnum.\n rekkar þat þóttusk,\n er þeir ript h`+ this.special[1] + `fðu;\n neiss er nøkkviðr halr.`,
         `Hrørnar þ` + this.special[1] + `ll,\n sú er stendr þorpi á,\n hlýr-at henni b` + this.special[1] + `rkr né barr.\n Svá er ` + this.special[4] + `\n sá er manngi ann;\n hvat skal hann lengi lifa?`,
-        ``,
+        `Eldi heitari\n brennr með illum vinum\n friðr fimm daga,\n en þá sloknar\n er inn sétti kømr,\n ok versnar allr vinskapr.`,
+        `Mikit eitt\n skal-a manni gefa;\n opt kaupir sér í litlu lof.\n Með hálfum hleif\n ok með h` + this.special[1] + `llu keri\n fekk ekk mér félaga.`,
+        `Lítilla sanda,\n lítilla sæva--\n lítil eru geð guma.\n Því allir menn\n urðu-t jafnspakir,\n hálb er ` + this.special[1] + `ld hvar.`,
+        this.repeated[3] + `Þeim er fyrða\n fegrst at lifa\n er vel mart vitu.`,
+        this.repeated[3] + `Því at snotrs manns hjarta\n verðr sjaldan glatt\n ef sá er alsnotr er á.`,
+        this.repeated[3] + `Ørl` + this.special[1] + `g sín\n viti engi ` + this.special[4] + ` fyrir;\n þeim er sorgalausastr sefi.`,
+        `Brandr af brandi\n brenn unz brunninn er;\n funi kveykisk af funa.\n ` + this.special[4] + ` af manni\n verðr at máli kuðr,\n en til d` + this.special[2] + `lskr af dul.`,
+        `Ár skal rísa,\n sá er annars vill\n fé, eða fj` + this.special[1] + `r, hafa.\n Sjaldan liggjandi úlfr\n lær um getr,\n né sofandi ` + this.special[4] + ` sigr.`,
     ];
 
     NL: string[] = [
@@ -119,6 +127,13 @@ export class HavamalComponent{
         `Aardige, dappere\n mensen leven het best,\n koesteren zelden wrok.\n Echter, een onwijze man,\n maakt zich overal zorgen om,\n ze vrezen zelfs het wederkeren van een gift.`,
         `Ik gaf mijn kleren\n aan twee vogelverschrikkers,\n toen ik door een veld liep.\n Ze dachten dat ze mens waren\n zodra ze kleren aan hadden;\n Een naakt mens schaamt zich.`,
         `Een spar vergaat,\n staande over een boerderij,\n niet langer beschermd door bast en naald.\n Een mens is hetzelfde\n als niemand meer van diegene houdt;\n Hoe leeft die nog langer?`,
-        ``,
+        `Het vuur brant\n warm met slechte vrienden\n voor vijf dagen,\n maar dan is het uitgeblust\n op de zesde dag,\n en de vriendschap is over.`,
+        `Geef niet alleen\n grote geschenken;\n vaak is iets kleins genoeg.\n Met een half brood\n en met een kop soep\n heb ik vrienden gewonnen.`,
+        `Klein zand,\n kleine zee--\n klein is het mensenverstand.\n Niet iedereen\n is even wijs,\n maar de gemiddelde is matig wijs.`,
+        `Je zou slechts\n een beetje wijs moeten zijn,\n nooit te wijs.\n De gelukkigste mensen\n zijn diegene die\n precies genoeg weten.`,
+        `Je zou slechts\n een beetje wijs moeten zijn,\n nooit te wijs.\n Het hart\n van een wijze is zelden verheugd\n als hij daadwerkelijk wijs is.`,
+        `Je zou slechts\n een beetje wijs moeten zijn,\n nooit te wijs.\n Je lot\n kan je beter niet van tevoren weten.\n Dan leef je gelukkiger.`,
+        `Een fakkel wordt door een ander aangestoken\n en brant tot die uitgebrand is;\n een vuur wordt door een ander vuur aangestoken.\n Iemand wordt wijs\n door met anderen te spreken,\n maar wordt dom door bij zichzelf te blijven.`,
+        `Sta vroeg op\n als je een ander's bezit wilt nemen\n of zijn leven.\n Een slapende wolf\n krijgt zelden zijn vlees,\n of een slapende krijger zijn overwinning.`,
     ];
 }

@@ -19,6 +19,7 @@
                 <div class="column">
                     <h1>Hávamál</h1>
                     <h2 style="color: red;">Work in progress</h2>
+                    <p>{{ ON.length*100/164 | number: '0.0-2' }}% finished</p> <!-- todo: remove -->
                     <div class="credit">
                         <p>Credit for the translation goes to Jackson Crawford, PhD. Some of the Old Norse I've
                             been able to translate myself thanks to his videos teaching the language. For further
@@ -36,7 +37,7 @@
                     <p>
                         De originele middeleeuwse manuscripten kunnen gevonden worden op <a
                             href="https://www.handrit.is">Handrit</a>, waar Hávamál te vinden is onder
-                        GKS&nbsp;2365&nbsp;4to. Het lezen en interpreteren van een middeleeuws manuscript 
+                        <a href="https://handrit.is/en/manuscript/view/is/GKS04-2365">GKS&nbsp;2365&nbsp;4to</a>. Het lezen en interpreteren van een middeleeuws manuscript 
                         is een vak opzich. Een korte uitleg over de werking ervan is <a
                             href="https://www.youtube.com/watch?v=N7KYyj8ed94">hier</a> te vinden.
                     </p>
@@ -102,7 +103,7 @@
             </div>
 
             <div class="row">
-                <label><input type="number" [(ngModel)]="searchStanza" min="1" max="164">&nbsp;Zoek een stanza</label>
+                <label><input type="number" [(ngModel)]="searchStanza" min="1" max="164">&nbsp;Zoek een stanzanummer</label>
             </div>
             
             <div class="row" *ngIf="searchStanza > 0 && searchStanza <= 164">

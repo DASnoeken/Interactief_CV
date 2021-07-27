@@ -18,8 +18,15 @@
             <div class="row">
                 <div class="column">
                     <h1>Hávamál</h1>
-                    <h2 style="color: red;">Work in progress</h2>
-                    <p>{{ ON.length*100/164 | number: '0.0-2' }}% finished</p> <!-- todo: remove -->
+                    <div style="border: 2px solid red; margin-bottom: 10px; margin-top: 5px;">
+                        <h2 style="color: red;">Work in progress</h2>
+                        <p>{{ ((ON.length+NL.length)/2)*100/164 | number: '0.0-2' }}% finished</p> <!-- todo: remove -->
+                        <div *ngIf="ON.length!==NL.length">
+                            <p style="color: red;">Oudnoords en Nederlands niet dezelfde lengte!</p>
+                            ON: {{ ON.length }}<br>
+                            NL: {{ NL.length }}
+                        </div>
+                    </div>
                     <div class="credit">
                         <p>Credit for the translation goes to Jackson Crawford, PhD. Some of the Old Norse I've
                             been able to translate myself thanks to his videos teaching the language. For further

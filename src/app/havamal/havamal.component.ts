@@ -74,10 +74,12 @@ export class HavamalComponent{
         this.repeated[3] + `Ørl` + this.special[1] + `g sín\n viti engi ` + this.special[4] + ` fyrir;\n þeim er sorgalausastr sefi.`,
         `Brandr af brandi\n brenn unz brunninn er;\n funi kveykisk af funa.\n ` + this.special[4] + ` af manni\n verðr at máli kuðr,\n en til d` + this.special[2] + `lskr af dul.`,
         `Ár skal rísa,\n sá er annars vill\n fé, eða fj` + this.special[1] + `r, hafa.\n Sjaldan liggjandi úlfr\n lær um getr,\n né sofandi ` + this.special[4] + ` sigr.`,
+        `Ár skal rísa,\n sá er á yrkjendr fá,\n ok ganga síns verka á vit.\n Mart um dvelr\n þann er um morgin sefr;\n hálfr er auðr und hv` + this.special[1] + `tum`,
+        `Þurra skíða\n ok þakinna næfra,\n þess kann ` + this.special[4] + ` mj` + this.special[1] + `t,\n ok þess viðar\n er vinnask megi\n mál ok misseri.`,
     ];
 
     NL: string[] = [
-        `Bij iedere ingang \n voordat u binnenkomt, \n kijk om u heen, \n kijk goed om u heen, \n want u weet nooit waar uw vijanden zitten.`,
+        `Bij iedere ingang \n voordat u binnenkomt, \n kijk om u heen, \n kijk goed om u heen, \n want u weet nooit\n waar uw vijanden zitten.`,
         `Heil aan de gastheer!\n Een gast is binnen gekomen,\n waar moet deze zitten?\n Hij is heel gretig,\n staande op de deurpost,\n klaar om zijn geluk te wagen.`,
         `Vuur is nodig \n voor hij die is binnen gekomen\n zijn knieën rillen.\n Hij heeft voedsel en droge kleren\n hard nodig,\n na zijn reis over de bergen.`,
         `Water is nodig\n voor hij die naar\n de maaltijd komt, drogen en een warm welkom,\n van een vriendelijke gastheer --\n en als hij het kan krijgen,\n woord en stilte.`,
@@ -135,5 +137,7 @@ export class HavamalComponent{
         `Je zou slechts\n een beetje wijs moeten zijn,\n nooit te wijs.\n Je lot\n kan je beter niet van tevoren weten.\n Dan leef je gelukkiger.`,
         `Een fakkel wordt door een ander aangestoken\n en brant tot die uitgebrand is;\n een vuur wordt door een ander vuur aangestoken.\n Iemand wordt wijs\n door met anderen te spreken,\n maar wordt dom door bij zichzelf te blijven.`,
         `Sta vroeg op\n als je een ander's bezit wilt nemen\n of zijn leven.\n Een slapende wolf\n krijgt zelden zijn vlees,\n of een slapende krijger zijn overwinning.`,
+        `Sta vroeg op\n als je niemand hebt die voor je werkt,\n en ga meteen werken.\n Je verliest meer dan tijd\n als je slaapt tijdens de dageraad;\n voor de vroege vogel is rijkdom half gewonnen.`,
+        `Je moet weten hoe je\n hout droogt tot brandhout\n en bast voor daken,\n en ook dit:\n de juiste hoeveelheid hout\n voor iedere tijd en seizoen.`,
     ];
 }

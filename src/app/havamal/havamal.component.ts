@@ -76,6 +76,11 @@ export class HavamalComponent{
         `Ár skal rísa,\n sá er annars vill\n fé, eða fj` + this.special[1] + `r, hafa.\n Sjaldan liggjandi úlfr\n lær um getr,\n né sofandi ` + this.special[4] + ` sigr.`,
         `Ár skal rísa,\n sá er á yrkjendr fá,\n ok ganga síns verka á vit.\n Mart um dvelr\n þann er um morgin sefr;\n hálfr er auðr und hv` + this.special[1] + `tum`,
         `Þurra skíða\n ok þakinna næfra,\n þess kann ` + this.special[4] + ` mj` + this.special[1] + `t,\n ok þess viðar\n er vinnask megi\n mál ok misseri.`,
+        `Þveginn ok mettr\n ríði ` + this.special[4] + ` þingi at,\n þótt hann sé-t væddr til vel.\n Skúa ok bróka\n skammisk engi ` + this.special[4] + `,\n né hests enn heldr,\n þótt hann hafi-t góðan.`,
+        `Snapir ok gnapir\n er til sævar kømr,\n ` + this.special[1] + `rn á aldinn mar.\n Svá er ` + this.special[4] + `\n er með m` + this.special[1] + `rgum kømr\n ok á formælendr fá.`,
+        `Fregna ok segja\n skal fróðra hverr,\n sá er vill heitinn horskr.\n Einn vita,\n né annarr skal--\n þjóð veit, ef þrír'ru.`,
+        `Ríki sitt\n skyli ráðsnotra hverr\n í hófi hafa.\n Þá hann þat finnr,\n er með fr` + this.special[2] + `knum kømr,\n at engi er einna hvatastr.`,
+        `Orðá þeira\n er ` + this.special[4] + ` ` + this.special[1] + `ðrum segir\n opt hann gj` + this.special[1] + `ld um getr.`,
     ];
 
     NL: string[] = [
@@ -139,5 +144,10 @@ export class HavamalComponent{
         `Sta vroeg op\n als je een ander's bezit wilt nemen\n of zijn leven.\n Een slapende wolf\n krijgt zelden zijn vlees,\n of een slapende krijger zijn overwinning.`,
         `Sta vroeg op\n als je niemand hebt die voor je werkt,\n en ga meteen werken.\n Je verliest meer dan tijd\n als je slaapt tijdens de dageraad;\n voor de vroege vogel is rijkdom half gewonnen.`,
         `Je moet weten hoe je\n hout droogt tot brandhout\n en bast voor daken,\n en ook dit:\n de juiste hoeveelheid hout\n voor iedere tijd en seizoen.`,
+        `Ga altijd\n goed verzorgd en gevoed naar buiten,\n ook als je geen goede kleren kan betalen.\n Schaam je nooit\n voor je schoenen of broek,\n noch je paard,\n ookal is het geen goede.`,
+        `Een hongerige adelaar knipt met zijn snavel\n en rekt zijn nek,\n als de zee in zicht komt.\n Zo zijn mensen,\n als ze zich onder vreemden bevinden\n en niemand hebben om goed over hen te spreken.`,
+        `Als je wijs genoemd will worden,\n moet je weten hoe\n je wijs vraagt en antwoord.\n Vertel je geheim aan één persoon,\n nooit twee--\n iedereen weet het, als drie het weten.`,
+        `Een wijze man,\n gebruikt zijn vaardigheden\n slechts met mate.\n Dan zal hij vinden,\n als hij bij de stoutmoedigen komt,\n dat niemand de dapperste van allen is.`,
+        `Je zal vaak\n herbetalingen krijgen\n voor de woorden die je tegen een ander spreekt.`,
     ];
 }

@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'programming', component: ProgrammingComponent },
   { path: 'science', component: ScienceComponent },
   { path: 'drive', component: DriveComponent },
-  { path: 'cbd5f2a8-7d80-4479-a91a-3d2cbc192653', component: HavamalComponent } // todo: set proper path
+  { path: 'havamal', component: HavamalComponent }
 ];
 
 @NgModule({

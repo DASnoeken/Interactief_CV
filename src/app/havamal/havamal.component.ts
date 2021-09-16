@@ -81,6 +81,9 @@ export class HavamalComponent{
         `Fregna ok segja\n skal fróðra hverr,\n sá er vill heitinn horskr.\n Einn vita,\n né annarr skal--\n þjóð veit, ef þrír'ru.`,
         `Ríki sitt\n skyli ráðsnotra hverr\n í hófi hafa.\n Þá hann þat finnr,\n er með fr` + this.special[2] + `knum kømr,\n at engi er einna hvatastr.`,
         `Orðá þeira\n er ` + this.special[4] + ` ` + this.special[1] + `ðrum segir\n opt hann gj` + this.special[1] + `ld um getr.`,
+        `Mikilsti snemma\n kom ek í marga staði,\n en til síð í suma.\n ` + this.special[1] + `l var drukkit,\n sumt var ólagat;\n sjaldan hittir leiðr í lið.`,
+        `Hér ok hvar\n myndi mér heim of boðit,\n ef þyrfta'k at málungi mat,\n eða tvau lær hengi\n at ins tryggva vinar\n þar's ek hafða eitt etit.`,
+        `Eldr er beztr\n með ýta sonum,\n ok sólar sýn--\n heilyndi sitt,\n ef ` + this.special[4] + ` hafa náir,\n án við l` + this.special[1] + `st at lifa.`,
     ];
 
     NL: string[] = [
@@ -149,5 +152,8 @@ export class HavamalComponent{
         `Als je wijs genoemd will worden,\n moet je weten hoe\n je wijs vraagt en antwoord.\n Vertel je geheim aan één persoon,\n nooit twee--\n iedereen weet het, als drie het weten.`,
         `Een wijze man,\n gebruikt zijn vaardigheden\n slechts met mate.\n Dan zal hij vinden,\n als hij bij de stoutmoedigen komt,\n dat niemand de dapperste van allen is.`,
         `Je zal vaak\n herbetalingen krijgen\n voor de woorden die je tegen een ander spreekt.`,
+        `Ik ben soms te vroeg gekomen\n op een evenement,\n en te laat op andere.\n De dranken waren allemaal op,\n of nog niet bereid;\n een gehate man komt zelden op tijd.`,
+        `Zo nu en dan\n ben ik uitgenodigd in het huis van een vriend,\n zo lang dat ik geen eten hoefde\n of zo lang dat ik\n de kelder van mijn ongastvrije gastheer\n voller in plaats van leger kon maken.`,
+        `Vuur is best\n voor stervelingen,\n en zonneschijn--\n en ook goede gezondheid,\n als je het hebt,\n en onberispelijk leven.`,
     ];
 }

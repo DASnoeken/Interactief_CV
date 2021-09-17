@@ -84,6 +84,10 @@ export class HavamalComponent{
         `Mikilsti snemma\n kom ek í marga staði,\n en til síð í suma.\n ` + this.special[1] + `l var drukkit,\n sumt var ólagat;\n sjaldan hittir leiðr í lið.`,
         `Hér ok hvar\n myndi mér heim of boðit,\n ef þyrfta'k at málungi mat,\n eða tvau lær hengi\n at ins tryggva vinar\n þar's ek hafða eitt etit.`,
         `Eldr er beztr\n með ýta sonum,\n ok sólar sýn--\n heilyndi sitt,\n ef ` + this.special[4] + ` hafa náir,\n án við l` + this.special[1] + `st at lifa.`,
+        `Er-at ` + this.special[4] + ` alls vesall,\n þótt hann sé illa heill--\n sumr er af sonum sæll,\n sumr af frændum,\n sumr af fé ` + this.special[2] +`rnu,\n sumr af verkum vel.`,
+        `Betra er lifðum\n en sé ólifðum--\n ey getr kvikr kú.\n Eld sá ek upp brenna\n auðgum manni fyrir,\n en úti var dauðr fyr durum.`,
+        `Haltr ríðr hrossi,\n hj` + this.special[1] + `rð rekr handarvanr,\n daufr vegr ok dugir.\n Blindr er betri\n en brenndr sé;\n nýtr manngi nás.`,
+        `Sonr er betri,\n þótt sé síð of alinn,\n eptir genginn guma.\n Sjaldan bautarsteinar\n standa brautu nær\n nema reisi niðr at nið.`,
     ];
 
     NL: string[] = [
@@ -155,5 +159,9 @@ export class HavamalComponent{
         `Ik ben soms te vroeg gekomen\n op een evenement,\n en te laat op andere.\n De dranken waren allemaal op,\n of nog niet bereid;\n een gehate man komt zelden op tijd.`,
         `Zo nu en dan\n ben ik uitgenodigd in het huis van een vriend,\n zo lang dat ik geen eten hoefde\n of zo lang dat ik\n de kelder van mijn ongastvrije gastheer\n voller in plaats van leger kon maken.`,
         `Vuur is best\n voor stervelingen,\n en zonneschijn--\n en ook goede gezondheid,\n als je het hebt,\n en onberispelijk leven.`,
+        `Niemand is helemaal ellendig,\n zelfs al is zijn gezondheid slecht--\n Sommigen vinden geluk in hun kinderen,\n sommigen in hun familie,\n sommigen in hun geld,\n sommigen in goed werk.`,
+        `Beter om levend te zijn,\n dan niet levend te zijn--\n enkel de levenden kunnen ergens van genieten.\n Vuur zag ik branden\n voor een rijk man,\n en hij lag dood buiten de deur.`,
+        `Een kreupele man kan paard rijden,\n een handloze man kan herden,\n een dove kan vechten en winnen.\n Beter blind te zijn\n dan brandstof voor de brandstapel;\n Niemand heeft iets aan een lijk.`,
+        `Beter om een zoon te hebben dan niet,\n ookal is hij laat in je leven geboren,\n ookal is hij na je dood geboren.\n Je ziet zelden gedenkstenen\n staande naast de weg\n neergezet voor mensen zonder zoon.`,
     ];
 }

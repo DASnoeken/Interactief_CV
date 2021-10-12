@@ -172,7 +172,7 @@ export class HavamalComponent{
         `Twee verslaan één\nde tong is een hoofds doder.\n In iedere verborgen hand\n verwacht ik een wapen te zien.`,
         `De zeeman is tevreden 's avonds\n vooruit kijkende naar zijn maaltijd,\n en een klein stukje naar huis.\n Echter is een herfstnacht onbetrouwbaar.\n Veel kan erger worden\n in vijf dagen,\n en nog meer in een maand.`,
         `De onwetende\n weet niet hoe weinig hij weet.\n Je wordt een dwaas door naar dwazen te luisteren.\n De een is rijk,\n de ander is arm,\n geen kan de ander de schuld geven.`,
-        `Vee sterft,\n familie sterf\n jij zal hetzelfde sterven.\n Echter een goede reputatie\n sterft nooit\n voor diegene die het verdient.`,
-        `Vee sterft,\n familie sterf\n jij zal hetzelfde sterven.\n Ik weet één ding\n dat nooit sterft:\n de reputatie van de overledene.`,
+        `Vee sterft,\n familie sterft\n jij zal hetzelfde sterven.\n Echter een goede reputatie\n sterft nooit\n voor diegene die het verdient.`,
+        `Vee sterft,\n familie sterft\n jij zal hetzelfde sterven.\n Ik weet één ding\n dat nooit sterft:\n de reputatie van de overledene.`,
     ];
 }

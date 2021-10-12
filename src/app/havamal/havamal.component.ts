@@ -100,7 +100,7 @@ export class HavamalComponent{
         `Wijsheid is nodig\n voor hij die reist;\n Thuis is alles makkelijk;\n Hij zal worden uitgelachen\n als hij niets weet en bij de wijzen zit.`,
         `Een man zou niet moeten opscheppen\n over zijn wijsheid,\n liever bedachtzaam over zijn geest,\n wanneer hij stil en wijs\n naar het huis van een ander gaat.\n Zelden overkomt pijn een wijze,\n want hij heeft geen trouwere vriend\n dan grote wijsheid.`,
         `De attente gast\n die naar een maaltijd komt,\n is stil en luistert aandachtig,\n hij luistert met zijn oren\n hij kijkt met zijn ogen--\n Zo vinden de wijzen hun weg vooruit.`,
-        `Hij die lof en verlichting\n vindt in zichzelf\n is gelukkig.\n Het is moeilijker\n voor hem om dat\n te hebben in andermans hart.`,
+        `Hij die lof en verlichting\n vindt in zichzelf\n is gelukkig.\n Het is moeilijker\n voor hem om dat\n te vinden in andermans hart.`,
         `Diegene is gelukkig\n die voor zichzelf lof en wijsheid\n heeft tijdens het leven.\n Omdat slecht advies\n vaak ontvangen wordt door mensen\n uit andermans hart.`,
         `Een betere last\n kan niet gedragen worden\n door een man op reis dan grote wijsheid.\n Het is beter dan rijkdom\n op een onbekende plaats--\n Zo is het gemak van de armen.`,
         `Een betere last\n kan niet gedragen worden\n door een man op reis dan grote wijsheid.\n Een slechtere voorziening\n kan hij niet meenemen\n dan te veel alcohol.`,

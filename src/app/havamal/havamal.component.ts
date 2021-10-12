@@ -13,6 +13,7 @@ export class HavamalComponent{
         `Ósnotr ψ\n hyggr sér alla vera\n viðlæ jendr vini.\n`,
         `Bú er betra\n þótt lílit sé–\n halr er heima hver.\n`,
         `Meðalsnotr\n skyli manna hverr,\n æva til snotr sé.\n`,
+        `Deyr fé,\n deyja frændr,\n deyr sjálfr it sama.\n`,
     ];
 
     ON: string[] = [
@@ -90,6 +91,9 @@ export class HavamalComponent{
         `Sonr er betri,\n þótt sé síð of alinn,\n eptir genginn guma.\n Sjaldan bautarsteinar\n standa brautu nær\n nema reisi niðr at nið.`,
         `Tveir'ru eins herjar;\ntunga er h` + this.special[1] + `fuðs bani.\n Er mér í heðin hvern\n handar væni.`,
         `Nótt verðr feginn,\n sá er nesi trúir,\n skammer'ru skips rár.\n Hverb er haustgríma.\n Fj` + this.special[1] + `lð um viðrir\n á fimm d` + this.special[1] + `gum,\n en meira á mánaði.`,
+        `Veit-a hinn\n er vætki veit.\n Margr verðr af ` + this.special[1] + `ðrum api.\n ` + this.special[4] + ` er auðigr, \n annarr óauðigr,\n skyli-t þann vítka vár.`,
+        this.repeated[4] + `En orðstírr\n deyr aldregi\n hveim er sér góðan getr`,
+        this.repeated[4] + `Ek veit einn\n at aldri deyr:\n dómr um dauðan hvern.`,
     ];
 
     NL: string[] = [
@@ -167,5 +171,8 @@ export class HavamalComponent{
         `Beter om een zoon te hebben dan niet,\n ookal is hij laat in je leven geboren,\n ookal is hij na je dood geboren.\n Je ziet zelden gedenkstenen\n staande naast de weg\n neergezet voor mensen zonder zoon.`,
         `Twee verslaan één\nde tong is een hoofds doder.\n In iedere verborgen hand\n verwacht ik een wapen te zien.`,
         `De zeeman is tevreden 's avonds\n vooruit kijkende naar zijn maaltijd,\n en een klein stukje naar huis.\n Echter is een herfstnacht onbetrouwbaar.\n Veel kan erger worden\n in vijf dagen,\n en nog meer in een maand.`,
+        `De onwetende\n weet niet hoe weinig hij weet.\n Je wordt een dwaas door naar dwazen te luisteren.\n De een is rijk,\n de ander is arm,\n geen kan de ander de schuld geven.`,
+        `Vee sterft,\n familie sterf\n jij zal hetzelfde sterven.\n Echter een goede reputatie\n sterft nooit\n voor diegene die het verdient.`,
+        `Vee sterft,\n familie sterf\n jij zal hetzelfde sterven.\n Ik weet één ding\n dat nooit sterft:\n de reputatie van de overledene.`,
     ];
 }

@@ -88,6 +88,8 @@ export class HavamalComponent{
         `Betra er lifðum\n en sé ólifðum--\n ey getr kvikr kú.\n Eld sá ek upp brenna\n auðgum manni fyrir,\n en úti var dauðr fyr durum.`,
         `Haltr ríðr hrossi,\n hj` + this.special[1] + `rð rekr handarvanr,\n daufr vegr ok dugir.\n Blindr er betri\n en brenndr sé;\n nýtr manngi nás.`,
         `Sonr er betri,\n þótt sé síð of alinn,\n eptir genginn guma.\n Sjaldan bautarsteinar\n standa brautu nær\n nema reisi niðr at nið.`,
+        `Tveir'ru eins herjar;\ntunga er h` + this.special[1] + `fuðs bani.\n Er mér í heðin hvern\n handar væni.`,
+        `Nótt verðr feginn,\n sá er nesi trúir,\n skammer'ru skips rár.\n Hverb er haustgríma.\n Fj` + this.special[1] + `lð um viðrir\n á fimm d` + this.special[1] + `gum,\n en meira á mánaði.`,
     ];
 
     NL: string[] = [
@@ -163,5 +165,7 @@ export class HavamalComponent{
         `Beter om levend te zijn,\n dan niet levend te zijn--\n enkel de levenden kunnen ergens van genieten.\n Vuur zag ik branden\n voor een rijk man,\n en hij lag dood buiten de deur.`,
         `Een kreupele man kan paard rijden,\n een handloze man kan herden,\n een dove kan vechten en winnen.\n Beter blind te zijn\n dan brandstof voor de brandstapel;\n Niemand heeft iets aan een lijk.`,
         `Beter om een zoon te hebben dan niet,\n ookal is hij laat in je leven geboren,\n ookal is hij na je dood geboren.\n Je ziet zelden gedenkstenen\n staande naast de weg\n neergezet voor mensen zonder zoon.`,
+        `Twee verslaan één\nde tong is een hoofds doder.\n In iedere verborgen hand\n verwacht ik een wapen te zien.`,
+        `De zeeman is tevreden 's avonds\n vooruit kijkende naar zijn maaltijd,\n en een klein stukje naar huis.\n Echter is een herfstnacht onbetrouwbaar.\n Veel kan erger worden\n in vijf dagen,\n en nog meer in een maand.`,
     ];
 }

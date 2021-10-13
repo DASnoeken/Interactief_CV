@@ -36,7 +36,7 @@ export class HavamalComponent{
         `Kópir afglapi\n er til kynnis kømr–\n þylsk hann um, eða þrumir.\n Allt er senn\n ef hann sylg um getr,\n uppi er þá geð guma.`,
         `Sá einn veit\n er víða ratar\n ok hefir fjǫlð um farit\n hverju geði\n stýrir gumna hverr.\n Sá er vitandi er vits.`,
         `Haldi-t ψ á keri,\n drekki þó at hófi mjǫð.\n Mæli þarft eða þegi.\n Ókynnis þess\n vár þik engi ψ\n at þú gangir snemma at sofa.`,
-        `Gráðurgr halr,\n nema geðs viti,\n etr sér aldrtrega.\n opt fær hlǿgis\n er með horskum kømr\n manni heimskum magi.`,
+        `Gráðurgr halr,\n nema geðs viti,\n etr sér aldrtrega.\n Opt fær hlǿgis\n er með horskum kømr\n manni heimskum magi.`,
         `Hjarðir þat vitu\n nær þær heim skulu\n ok ganga þá af grasi,\n en ósviðr ψ\n kann ævagi\n síns um mál maga.`,
         `Vesall ψ\n ok illa skapi\n hlær at hvívetna.\n Hittki hann veit\n er hann vita þyrfti:\n at hann er-at vamma vanr.`,
         `Ósviðr ψ\n vakir um allar nætr\n ok hyggr at hvívetna.\n Þá er móðr\n er at morni kømr,\n allt er víl sem var.`,
@@ -94,6 +94,8 @@ export class HavamalComponent{
         `Veit-a hinn\n er vætki veit.\n Margr verðr af ` + this.special[1] + `ðrum api.\n ` + this.special[4] + ` er auðigr, \n annarr óauðigr,\n skyli-t þann vítka vár.`,
         this.repeated[4] + `En orðstírr\n deyr aldregi\n hveim er sér góðan getr`,
         this.repeated[4] + `Ek veit einn\n at aldri deyr:\n dómr um dauðan hvern.`,
+        `Fullar grindr\nsá ek fyr Fitjungs sonum;\nnú bera þeir vánar v` + this.special[1] + `l\nSvá er auðr\nsem augabragð--\nhann er valtastr vina.`,
+        `Ósnotr ` + this.special[4] + `,\nef eignask getr\n fé eða fljóðs munuð,\n metnaðr honum þróask\nen mannvit aldregi;\nfram gengr hann drjúgt í dul.`,
     ];
 
     NL: string[] = [
@@ -117,7 +119,7 @@ export class HavamalComponent{
         `Alleen diegene\n die ver reist\n en veel rond geweest is\n weet wat voor geest iedere wijze man heeft.\n Diegene is wijs.`,
         `Laat men niet de beker vasthouden,\n maar laat hen met mate hun mede drinken.\n Laat ze wat goeds zeggen, of stil zijn.\n Voor de onbeleefdheid\n zal niemand het je kwalijk nemen\n als je eerder naar bed gaat.`,
         `Een gulzig mens,\n tenzij die zijn geest kent,\n eet zich een leven lang verdriet.\n Vaak wordt een dwaas\n vanwege zijn maag\n uitgelachen als die onder de wijzen komt.`,
-        `Kuddes weten\n wanneer ze naar huis moeten\n en het gras moeten verlaten,\n maar een dwaas\n weet nooit\n de omvang van zijn maag.`,
+        `Kuddes weten\n wanneer ze naar huis moeten\n en het gras moeten verlaten,\n maar een dwaas\n kent nooit\n de omvang van zijn maag.`,
         `Een dwaas\n met een slechte mentale vorm\n lacht overal om.\n Hij weet niet\n wat hij zou moeten weten:\n hij is niet perfect.`,
         `Een dwaas\n blijft de hele nacht\n denken aan zijn problemen.\n Hij is moe\n als de ochtend komt,\n en zijn problemen onopgelost.`,
         `Een onwijze man\n denkt dat iedereen\n die met hem lacht zijn vriend is.\n Hij begrijpt niet,\n dat ze hem belachelijk maken\n als hij bij de wijzen zit.`,
@@ -174,5 +176,7 @@ export class HavamalComponent{
         `De onwetende\n weet niet hoe weinig hij weet.\n Je wordt een dwaas door naar dwazen te luisteren.\n De een is rijk,\n de ander is arm,\n geen kan de ander de schuld geven.`,
         `Vee sterft,\n familie sterft\n jij zal hetzelfde sterven.\n Echter een goede reputatie\n sterft nooit\n voor diegene die het verdient.`,
         `Vee sterft,\n familie sterft\n jij zal hetzelfde sterven.\n Ik weet één ding\n dat nooit sterft:\n de reputatie van de overledene.`,
+        `Grote kuddes,\nzag ik, van een rijke mans zonen;\nnu dragen ze een bedelaar's staf.\n Zo is rijkdom\n als een oogwenk--\nhet is de onbetrouwbaarste vriend.`,
+        `Als een onwijze man\n kanst op geld\nof een vrouw's liefde,\n wordt hij arroganter\nmaar nooit wijzer;\nhij wordt misleid door zijn eigenwaarde.`,
     ];
 }

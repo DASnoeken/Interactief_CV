@@ -124,7 +124,7 @@ export class HavamalComponent{
         `Een dwaas\n blijft de hele nacht\n denken aan zijn problemen.\n Hij is moe\n als de ochtend komt,\n en zijn problemen onopgelost.`,
         `Een onwijze man\n denkt dat iedereen\n die met hem lacht zijn vriend is.\n Hij begrijpt niet,\n dat ze hem belachelijk maken\n als hij bij de wijzen zit.`,
         `Een onwijze man\n denkt dat iedereen\n die met hem lacht zijn vriend is.\n Dan vindt hij,\n dat er maar weinig voor hem spreken\n als hij zich moet verdedigen.`,
-        `Een onwijze man\n denkt dat hij alles weet\n zolang hij een schuilplaats heeft.\n Hij weet niet\n hoe hij moet reageren\n als men hem test.`,
+        `Een onwijze man\n denkt dat hij alles weet\n zolang hij een schuilplaats heeft.\n Hij weet niet\n wat hij moet zeggen\n als men hem test.`,
         `Een onwijze man\n die bij anderen komt,\n kan beter zijn mond houden.\n Niemand zal weten\n dat hij niks weet,\n als hij niets zegt.\n Een man\n die niets weet,\n weet niet dat hij te veel praat.`,
         `Diegene lijkt wijs\n die vragen stelt,\n en kan beantwoorden.\n Mensen kunnen geen\n geheimen bewaren van\n wat ze over anderen horen.`,
         `Diegene die nooit stil is,\n spreekt veel \n betekenisloze woorden.\n Een snel gesproken tong,\n tenzij de eigenaar hem controleert,\n zingt vaak om problemen voor zichzelf.`,

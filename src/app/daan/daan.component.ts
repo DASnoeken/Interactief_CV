@@ -7,6 +7,9 @@ import { Title } from '@angular/platform-browser';
     styleUrls: ['../app.component.css']
 })
 export class DaanComponent {
+    timeDiff:number = Math.abs(Date.now() - Date.parse("1993-09-14"));
+    age:number = Math.floor((this.timeDiff / (1000 * 3600 * 24))/365.25);
+
     mouseUp(id:string) {
         document.getElementById(id).style.transition = "all 0.2s";
         if(id==='pasfoto'){

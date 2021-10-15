@@ -183,8 +183,8 @@ export class HavamalComponent{
         `Een vol veehok,\nzag ik, van een rijke man's zonen;\nnu dragen ze een bedelaar's staf.\n Zo is rijkdom\n als een oogwenk--\nhet is de onbetrouwbaarste vriend.`,
         `Als een onwijze man\n kanst op geld\nof een vrouw's liefde,\n wordt hij arroganter\nmaar nooit wijzer;\nhij wordt misleid door zijn eigenwaarde.`,
         `Het is dan bewezen\n wat je vraagt van de runen,\n ze zijn van heilige afkomst,\n\gemaakt door de machtige Goden\n en getekend door Odin.\nHij heeft ze het best als hij stil is.`,
-        `'S avonds zal je de dag prijzen,\neen vrouw wannneer ze verbrand is,\neen zwaard als het geprobeerd is,\nje dochter als ze gegeven is,\nijs als je er over komt,\nbier als het gedronken is.`,
+        `'S avonds zal je de dag prijzen,\nen een vrouw als ze verbrand is,\neen zwaard als het geprobeerd is,\nje dochter als ze gegeven is,\nijs als je er over komt,\nbier als het gedronken is.`,
         `Hak hout als het waait,\nroei je boot met goed weer,\npraat met een meisje in het donker\n(de dag heeft vele ogen).\nWaardeer een schip voor snelheid,\neen schild voor bescherming,\neen zwaard voor scherpte,\neen vrouw voor haar kus.`,
-        `Drink bier bij het vuur,\n schaatsen op het ijs,\n koop en mager paard\n en een roestig zwaard.\n Voer je paard thuis,\n maar je hond buitenshuis.`,
+        `Drink bier bij het vuur,\n schaats op het ijs,\n koop een mager paard\n en een roestig zwaard.\n Voer je paard thuis,\n maar je hond buitenshuis.`,
     ];
 }

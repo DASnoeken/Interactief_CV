@@ -96,6 +96,10 @@ export class HavamalComponent{
         this.repeated[4] + `Ek veit einn\n at aldri deyr:\n dómr um dauðan hvern.`,
         `Fullar grindr\nsá ek fyr Fitjungs sonum;\nnú bera þeir vánar v` + this.special[1] + `l\nSvá er auðr\nsem augabragð--\nhann er valtastr vina.`,
         `Ósnotr ` + this.special[4] + `,\nef eignask getr\n fé eða fljóðs munuð,\n metnaðr honum þróask\nen mannvit aldregi;\nfram gengr hann drjúgt í dul.`,
+        `Þat er þá reynt\ner þú at rúnum spyrr,\ninum reginkunnum,\nþeim er gørðu ginnregin\nok fáði Fimbulþulr.\nÞá gefir hann bazt ef hann þegir.`,
+        `At kveldi skal dag leyfa,\nkonu er brennd er,\nmæki er gefin er,\nís er yfir kømr,\n` + this.special[1] + `l er drukkit er.`,
+        `Í vindi skal við h` + this.special[1] + `ggva,\nveðri á sjó róa,\n myrkri við man spjalla,\n (m` + this.special[1] + `rg er dags augu).\nÁ skip skal skriðar orka,\nen á skj` + this.special[1] + `ld til hlífar,\n mæki h` + this.special[1] + `ggs, en mey til kossa.`,
+        `Við eld skal ` + this.special[1] + `l drekka,\n en á ísi skríða,\nmagran mar kaupa\nen mæki saurgan.\nHeima hest feita,\nen hund á búi.`,
     ];
 
     NL: string[] = [
@@ -176,7 +180,11 @@ export class HavamalComponent{
         `De onwetende\n weet niet hoe weinig hij weet.\n Je wordt een dwaas door naar dwazen te luisteren.\n De een is rijk,\n de ander is arm,\n geen kan de ander de schuld geven.`,
         `Vee sterft,\n familie sterft\n jij zal hetzelfde sterven.\n Echter een goede reputatie\n sterft nooit\n voor diegene die het verdient.`,
         `Vee sterft,\n familie sterft\n jij zal hetzelfde sterven.\n Ik weet één ding\n dat nooit sterft:\n de reputatie van de overledene.`,
-        `Grote kuddes,\nzag ik, van een rijke mans zonen;\nnu dragen ze een bedelaar's staf.\n Zo is rijkdom\n als een oogwenk--\nhet is de onbetrouwbaarste vriend.`,
+        `Een vol veehok,\nzag ik, van een rijke man's zonen;\nnu dragen ze een bedelaar's staf.\n Zo is rijkdom\n als een oogwenk--\nhet is de onbetrouwbaarste vriend.`,
         `Als een onwijze man\n kanst op geld\nof een vrouw's liefde,\n wordt hij arroganter\nmaar nooit wijzer;\nhij wordt misleid door zijn eigenwaarde.`,
+        `Het is dan bewezen\n wat je vraagt van de runen,\n ze zijn van heilige afkomst,\n\gemaakt door de machtige Goden\n en getekend door Odin.\nHij heeft ze het best als hij stil is.`,
+        `'S avonds zal je de dag prijzen,\neen vrouw wannneer ze verbrand is,\neen zwaard als het geprobeerd is,\nje dochter als ze gegeven is,\nijs als je er over komt,\nbier als het gedronken is.`,
+        `Hak hout als het waait,\nroei je boot met goed weer,\npraat met een meisje in het donker\n(de dag heeft vele ogen).\nWaardeer een schip voor snelheid,\neen schild voor bescherming,\neen zwaard voor scherpte,\neen vrouw voor haar kus.`,
+        `Drink bier bij het vuur,\n schaatsen op het ijs,\n koop en mager paard\n en een roestig zwaard.\n Voer je paard thuis,\n maar je hond buitenshuis.`,
     ];
 }

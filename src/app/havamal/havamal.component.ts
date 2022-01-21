@@ -106,6 +106,7 @@ export class HavamalComponent{
         `sjúkum kálfi,\nsjálfráða þræli,\nv` + this.special[1] + `lu vilmæli,\nval nýfelldum,\n`,
         `Akri ársánum\ntrúi engi ` + this.special[4] + `,\n né til snemma syni--\nveðr ræðr akri\nen vit syni,\n hætt er þeira hvárt.`,
         `bróðurbana sínum\n(þótt á brautu m` + this.special[2] + `ti),\nhúsi hálfbrunnu,\nhesti alskjótum\n(þá er jór ónýtr\nef einn fórt brotnar)--\nverði-t ` + this.special[4] + ` svá tryggr\n at þessu trúi `+this.special[1] + `llu.`,
+        `Svá er friðr kvenna\nþeira er flátt hyggja,\n sem aki jó óbryddum,\ná ísi hálum,\nteitum, tvévetrum,\nok sé tamr illa,\n ða í byr óðum\nbeiti stjórnlausu,\neða skyli haltr henda\n hrein í þáfjalli.`,
     ];
 
     NL: string[] = [
@@ -198,5 +199,6 @@ export class HavamalComponent{
         `een ziek kalf,\neen koppige slaaf,\neen goedsvoorspellende profeet,\neen lichaam op een slagveld,`,
         `Plaats niet te veel vertrouwen\n in nieuw geplantte gewassen,\n noch te vroeg in je kind--\nweer zal het veld scheppen\ngril zal het kind scheppen,\n en geen zal hetzelfde blijven.`,
         `je broeder's doder\n(zelfs als je hem publiekelijk ontmoet),\neen half afgebrand huis,\neen paard dat te snel is\n(onthoud, een paard is onbruikbaar\nals maar 1 been breekt)--\nmoge jij nooit zo vertrouwend zijn\ndat je al deze dingen vertrouwd.`,
+        `Zo is de liefde,\n van bedrieglijke vrouwen,\n het is als het berijden van een ongeschoeid paard,\neen speels, jong,\n slecht getemd veulen,\nover glad ijs,\nof het zeilen van een schip\nin wilde wind,\nof hinken achter een reindier\n nadat de bergen ontdooien.`
     ];
 }

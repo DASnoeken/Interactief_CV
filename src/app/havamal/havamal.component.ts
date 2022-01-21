@@ -100,6 +100,12 @@ export class HavamalComponent{
         `At kveldi skal dag leyfa,\nkonu er brennd er,\nmæki er gefin er,\nís er yfir kømr,\n` + this.special[1] + `l er drukkit er.`,
         `Í vindi skal við h` + this.special[1] + `ggva,\nveðri á sjó róa,\n myrkri við man spjalla,\n (m` + this.special[1] + `rg er dags augu).\nÁ skip skal skriðar orka,\nen á skj` + this.special[1] + `ld til hlífar,\n mæki h` + this.special[1] + `ggs, en mey til kossa.`,
         `Við eld skal ` + this.special[1] + `l drekka,\n en á ísi skríða,\nmagran mar kaupa\nen mæki saurgan.\nHeima hest feita,\nen hund á búi.`,
+        `Meyjar orðum\nskyli manngi trúa\nné því er kveðr kona.\nÞví at á hverfanda hvéli\nváru þeim hj` + this.special[1] + `rtu sk` + this.special[1] + `puð,\nbrigð í brjóst u lagið.`,
+        `Brestanda boga,\n brennanda loga,\n gínnanda úlfi,\ngalandi kráku,\nrýtanda svíni,\nrótlausum viði,\nvaxanda vági,\nvellanda katli,\n`,
+        `fljúganda fleini,\nfallandi báru,\nísi einnættum,\normi hringlegnum,\nbrúðar beðmálum,\neða brotnu sverði,\nbjarnar leiki,\neða barni konungs,`,
+        `sjúkum kálfi,\nsjálfráða þræli,\nv` + this.special[1] + `lu vilmæli,\nval nýfelldum,\n`,
+        `Akri ársánum\ntrúi engi ` + this.special[4] + `,\n né til snemma syni--\nveðr ræðr akri\nen vit syni,\n hætt er þeira hvárt.`,
+        `bróðurbana sínum\n(þótt á brautu m` + this.special[2] + `ti),\nhúsi hálfbrunnu,\nhesti alskjótum\n(þá er jór ónýtr\nef einn fórt brotnar)--\nverði-t ` + this.special[4] + ` svá tryggr\n at þessu trúi `+this.special[1] + `llu.`,
     ];
 
     NL: string[] = [
@@ -186,5 +192,11 @@ export class HavamalComponent{
         `'S avonds zal je de dag prijzen,\nen een vrouw als ze verbrand is,\neen zwaard als het geprobeerd is,\nje dochter als ze gegeven is,\nijs als je er over komt,\nbier als het gedronken is.`,
         `Hak hout als het waait,\nroei je boot met goed weer,\npraat met een meisje in het donker\n(de dag heeft vele ogen).\nWaardeer een schip voor snelheid,\neen schild voor bescherming,\neen zwaard voor scherpte,\neen vrouw voor haar kus.`,
         `Drink bier bij het vuur,\n schaats op het ijs,\n koop een mager paard\n en een roestig zwaard.\n Voer je paard thuis,\n maar je hond buitenshuis.`,
+        `De woorden van een meisje\nzou geen man moeten vertrouwen,\nen niets wat een vrouw zegt.\nDe harten van vrouwen zijn geschapen\nop een wiebelig wiel.\nOngehoorzaamheid staat in de kern.`,
+        `Een brekende boog,\n een brandend vuur,\neen huilende wolf,\neen krassende kraai\neen knorrend varken,\n een wortelloze boom,\neen zwellende golf,\neen kokende ketel,\n`,
+        `een vliegende speer,\neen botsende golf,\neen-nachts ijs,\n een opgerolde slang,\neen bruid's bedwoorden,\nof een gebroken zwaard,\neen speelse beer,\nof een koning's kind,`,
+        `een ziek kalf,\neen koppige slaaf,\neen goedsvoorspellende profeet,\neen lichaam op een slagveld,`,
+        `Plaats niet te veel vertrouwen\n in nieuw geplantte gewassen,\n noch te vroeg in je kind--\nweer zal het veld scheppen\ngril zal het kind scheppen,\n en geen zal hetzelfde blijven.`,
+        `je broeder's doder\n(zelfs als je hem publiekelijk ontmoet),\neen half afgebrand huis,\neen paard dat te snel is\n(onthoud, een paard is onbruikbaar\nals maar 1 been breekt)--\nmoge jij nooit zo vertrouwend zijn\ndat je al deze dingen vertrouwd.`,
     ];
 }

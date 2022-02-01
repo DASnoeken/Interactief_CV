@@ -107,6 +107,11 @@ export class HavamalComponent{
         `Akri ársánum\ntrúi engi ` + this.special[4] + `,\n né til snemma syni--\nveðr ræðr akri\nen vit syni,\n hætt er þeira hvárt.`,
         `bróðurbana sínum\n(þótt á brautu m` + this.special[2] + `ti),\nhúsi hálfbrunnu,\nhesti alskjótum\n(þá er jór ónýtr\nef einn fórt brotnar)--\nverði-t ` + this.special[4] + ` svá tryggr\n at þessu trúi `+this.special[1] + `llu.`,
         `Svá er friðr kvenna\nþeira er flátt hyggja,\n sem aki jó óbryddum,\ná ísi hálum,\nteitum, tvévetrum,\nok sé tamr illa,\n ða í byr óðum\nbeiti stjórnlausu,\neða skyli haltr henda\n hrein í þáfjalli.`,
+        `Bert ek nú mæli,\nþví at ek bæði veit:\nbrigðr er karla hugr konum.\n Þá vér fegrst mælum\ner vér flást hyggjum,\nþat tælir horska hugi.`,
+        `Fagrt skal mæla\n ok fé bjóða\n sá er vill fljóðs ást fá.\nLíki leyfa\n ins ljósa mans;\n sá fær er frjár.`,
+        `Ástar firna\n skyli engi ` + this.special[4] + `\nannan aldregi.\nOpt fá á horskan\n er á heimskan ná fá,\nlostfagrir litir.`,
+        `Eyvitar firna\n er ` + this.special[4] + ` annan skal\n þess er um margan gengr guma;\nheimska ór horskum\ngørir h` + this.special[1] + `lða sonu\n sá inn mátki munr.`,
+        `Hugr einn þat veit\n er býr hjarta nær,\n einn er hann sér um sefa;\n eingi er sótt verri\nhveim snotrum manni\nen sér engu at una.`,
     ];
 
     NL: string[] = [
@@ -199,6 +204,11 @@ export class HavamalComponent{
         `een ziek kalf,\neen koppige slaaf,\neen goedsvoorspellende profeet,\neen lichaam op een slagveld,`,
         `Plaats niet te veel vertrouwen\n in nieuw geplantte gewassen,\n noch te vroeg in je kind--\nweer zal het veld scheppen\ngril zal het kind scheppen,\n en geen zal hetzelfde blijven.`,
         `je broeder's doder\n(zelfs als je hem publiekelijk ontmoet),\neen half afgebrand huis,\neen paard dat te snel is\n(onthoud, een paard is onbruikbaar\nals maar 1 been breekt)--\nmoge jij nooit zo vertrouwend zijn\ndat je al deze dingen vertrouwd.`,
-        `Zo is de liefde,\n van bedrieglijke vrouwen,\n het is als het berijden van een ongeschoeid paard,\neen speels, jong,\n slecht getemd veulen,\nover glad ijs,\nof het zeilen van een schip\nin wilde wind,\nof hinken achter een reindier\n nadat de bergen ontdooien.`
+        `Zo is de liefde,\n van bedrieglijke vrouwen,\n het is als het berijden van een ongeschoeid paard,\neen speels, jong,\n slecht getemd veulen,\nover glad ijs,\nof het zeilen van een schip\nin wilde wind,\nof hinken achter een reindier\n nadat de bergen ontdooien.`,
+        `Ik zal nu duidelijk spreken,\nwant ik ken beide:\n mannen liegen tegen vrouwen.\n We spreken het mooist\nwanneer we de grootste leugens vertellen,\ndie verleiden zelfs de wijze vrouwen.`,
+        `Spreek mooi\n en bied rijkdom\naan de vrouw wiens liefde je wil winnen.\nAanbid het lichaam\nvan een mooie vrouw;\nde verliefde man zal haar winnen.`,
+        `Geen man\nzou een ander moeten bespotten\ndie verliefd is.\nVaak komt de schoonheid van een vrouw\n harder aan op een wijze\n dan een dwaas.`,
+        `Geen man\nzou een ander moeten bespotten\ndie verliefd is.\nLiefde heeft de kracht\nom een wijze\n tot dwaas te maken.`,
+        `Alleen jij weet,\n als je alleen bent,\n wat er in je hart gebeurt;\n niets is erger\n voor een wijze\n om nergens van te houden.`,
     ];
 }

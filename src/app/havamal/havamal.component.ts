@@ -112,6 +112,8 @@ export class HavamalComponent{
         `Ástar firna\n skyli engi ` + this.special[4] + `\nannan aldregi.\nOpt fá á horskan\n er á heimskan ná fá,\nlostfagrir litir.`,
         `Eyvitar firna\n er ` + this.special[4] + ` annan skal\n þess er um margan gengr guma;\nheimska ór horskum\ngørir h` + this.special[1] + `lða sonu\n sá inn mátki munr.`,
         `Hugr einn þat veit\n er býr hjarta nær,\n einn er hann sér um sefa;\n eingi er sótt verri\nhveim snotrum manni\nen sér engu at una.`,
+        `Þat er þá reynda\n er ek í reyri sat\n ok vætta'k míns munar.\nHoldok hjarta\n var mér in horska mær,\nþeygi ek hana at heldr hefi'k.`,
+        `Billings mey\nek fann beðjum á,\nsólhvíta sofa.\n Jarls ynði\nþótti mér ekki vera\nnema við þat lík at lifa.`,
     ];
 
     NL: string[] = [
@@ -210,5 +212,7 @@ export class HavamalComponent{
         `Geen man\nzou een ander moeten bespotten\ndie verliefd is.\nVaak komt de schoonheid van een vrouw\n harder aan op een wijze\n dan een dwaas.`,
         `Geen man\nzou een ander moeten bespotten\ndie verliefd is.\nLiefde heeft de kracht\nom een wijze\n tot dwaas te maken.`,
         `Alleen jij weet,\n als je alleen bent,\n wat er in je hart gebeurt;\n niets is erger\n voor een wijze\n om nergens van te houden.`,
+        `Dat heb ik ervaren\ntoen ik in het riet wachtte\nen hoopte voor mijn geliefde.\nMijn vlees en hart\n was dat wijze meisje\n ookal kon ik haar niet de mijne noemen.`,
+        `Billings dochter\nvond ik in haar bed\nzonswit aan het slapen.\nEen jarl's leven\nleek aan mij als niets\nals ik niet naast dat lichaam kon leven.`,
     ];
 }
